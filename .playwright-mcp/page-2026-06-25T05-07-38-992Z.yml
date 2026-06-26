@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e9] [cursor=pointer]:
+          - /url: /sports
+        - link "Science & Innovation" [ref=e10] [cursor=pointer]:
+          - /url: /science
+        - link "National Progress" [ref=e11] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e12] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e13] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e14] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e15] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e16] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - heading "Government News" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Stay informed about Zimbabwe's latest developments in policy, economy, international relations, and national development.
+    - generic [ref=e25]:
+      - button "All" [ref=e26] [cursor=pointer]
+      - button "Policy" [ref=e27] [cursor=pointer]
+      - button "Economy" [ref=e28] [cursor=pointer]
+      - button "International Relations" [ref=e29] [cursor=pointer]
+      - button "Development" [ref=e30] [cursor=pointer]
+    - generic [ref=e32]:
+      - heading "Latest Updates" [level=2] [ref=e33]
+      - paragraph [ref=e34]: All content on this page is placeholder and should be replaced with verified news from credible sources. Do not fabricate government statements or policies.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Economy
+            - generic [ref=e39]: "[VERIFY: Insert real date]"
+          - 'heading "[PLACEHOLDER: replace with current news from a verified source]" [level=3] [ref=e40]'
+          - paragraph [ref=e41]: "[PLACEHOLDER: replace with current news from a verified source — do not fabricate government statements]"
+          - generic [ref=e43]: "Source: [VERIFY: Source name] — [PLACEHOLDER]"
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: International Relations
+            - generic [ref=e47]: "[VERIFY: Insert real date]"
+          - 'heading "[PLACEHOLDER: replace with current news from a verified source]" [level=3] [ref=e48]'
+          - paragraph [ref=e49]: "[PLACEHOLDER: replace with current news from a verified source — do not fabricate government statements]"
+          - generic [ref=e51]: "Source: [VERIFY: Source name] — [PLACEHOLDER]"
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Development
+            - generic [ref=e55]: "[VERIFY: Insert real date]"
+          - 'heading "[PLACEHOLDER: replace with current news from a verified source]" [level=3] [ref=e56]'
+          - paragraph [ref=e57]: "[PLACEHOLDER: replace with current news from a verified source — do not fabricate government statements]"
+          - generic [ref=e59]: "Source: [VERIFY: Source name] — [PLACEHOLDER]"
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e62]: Policy
+            - generic [ref=e63]: "[VERIFY: Insert real date]"
+          - 'heading "[PLACEHOLDER: replace with current news from a verified source]" [level=3] [ref=e64]'
+          - paragraph [ref=e65]: "[PLACEHOLDER: replace with current news from a verified source — do not fabricate government statements]"
+          - generic [ref=e67]: "Source: [VERIFY: Source name] — [PLACEHOLDER]"
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - generic [ref=e70]: Economy
+            - generic [ref=e71]: "[VERIFY: Insert real date]"
+          - 'heading "[PLACEHOLDER: replace with current news from a verified source]" [level=3] [ref=e72]'
+          - paragraph [ref=e73]: "[PLACEHOLDER: replace with current news from a verified source — do not fabricate government statements]"
+          - generic [ref=e75]: "Source: [VERIFY: Source name] — [PLACEHOLDER]"
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - generic [ref=e78]: Development
+            - generic [ref=e79]: "[VERIFY: Insert real date]"
+          - 'heading "[PLACEHOLDER: replace with current news from a verified source]" [level=3] [ref=e80]'
+          - paragraph [ref=e81]: "[PLACEHOLDER: replace with current news from a verified source — do not fabricate government statements]"
+          - generic [ref=e83]: "Source: [VERIFY: Source name] — [PLACEHOLDER]"
+    - generic [ref=e85]:
+      - heading "Stay Informed, Stay Proud" [level=2] [ref=e86]
+      - paragraph [ref=e87]: This news section is a living document. As verified information becomes available, it will be updated with real news from trusted Zimbabwean sources.
+      - link "Back to Home" [ref=e88] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e89]:
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - link "Zimbabwe Pride" [ref=e99] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e100]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e101]:
+          - heading "Explore" [level=3] [ref=e102]
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - link "Sports" [ref=e105] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e106]:
+              - link "Science & Innovation" [ref=e107] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e108]:
+              - link "National Progress" [ref=e109] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e110]:
+              - link "News" [ref=e111] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e112]:
+              - link "Food & Culture" [ref=e113] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e114]:
+              - link "People" [ref=e115] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e116]:
+              - link "Pride" [ref=e117] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e118]:
+              - link "Leadership" [ref=e119] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e120]:
+          - heading "Follow Us" [level=3] [ref=e121]
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - link "Twitter" [ref=e124] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e125]:
+              - link "Facebook" [ref=e126] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e127]:
+              - link "Instagram" [ref=e128] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e129]:
+              - link "YouTube" [ref=e130] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e132]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+  - alert [ref=e133]

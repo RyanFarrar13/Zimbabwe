@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - button "Toggle navigation menu" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e13]:
+      - heading "Sports Achievements" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Zimbabwe's greatest sporting moments — from Olympic podium finishes to cricket triumphs. Our athletes have consistently proven that Zimbabweans are unstoppable on the world stage.
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: "7"
+        - heading "Olympic Medals" [level=3] [ref=e21]
+        - paragraph [ref=e22]: "[VERIFY: Confirm total Olympic medal count for Zimbabwe across all games]"
+      - generic [ref=e23]:
+        - generic [ref=e24]: "[VERIFY]"
+        - heading "Commonwealth Golds" [level=3] [ref=e25]
+        - paragraph [ref=e26]: "[VERIFY: Insert accurate count of Commonwealth Games gold medals for Zimbabwe]"
+      - generic [ref=e27]:
+        - generic [ref=e28]: "[VERIFY]"
+        - heading "World Cup Appearances" [level=3] [ref=e29]
+        - paragraph [ref=e30]: "[VERIFY: How many times has Zimbabwe qualified for the FIFA World Cup? Cricket World Cups?]"
+      - generic [ref=e31]:
+        - generic [ref=e32]: "[VERIFY]"
+        - heading "African Championships" [level=3] [ref=e33]
+        - paragraph [ref=e34]: "[VERIFY: Count of African championship titles won by Zimbabwean athletes]"
+    - generic [ref=e36]:
+      - heading "Legendary Athletes" [level=2] [ref=e37]
+      - paragraph [ref=e38]: Meet the Zimbabweans who have brought pride to the nation through extraordinary sporting achievements. Every medal tells a story of dedication, sacrifice, and triumph.
+      - generic [ref=e39]:
+        - generic [ref=e40]:
+          - img "Kirsty Coventry swimming at the Olympic Games" [ref=e42]
+          - generic [ref=e43]: Swimming
+          - heading "Kirsty Coventry" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Zimbabwe's most decorated Olympic athlete — 1 gold, 4 silver, 2 bronze medals across three Olympics. Gold in 100m backstroke (2004) and 200m backstroke (2008).
+          - generic [ref=e46]: 2004–2016
+        - generic [ref=e47]:
+          - img "Kirsty Coventry receiving an Olympic medal" [ref=e49]
+          - generic [ref=e50]: Swimming
+          - heading "Kirsty Coventry" [level=3] [ref=e51]
+          - paragraph [ref=e52]: "[VERIFY: Confirm exact count of African record holders from Zimbabwe in swimming]"
+          - generic [ref=e53]: Multiple
+        - generic [ref=e54]:
+          - img "Benning Mazikure in the boxing ring" [ref=e56]
+          - generic [ref=e57]: Boxing
+          - heading "Benning Mazikure" [level=3] [ref=e58]
+          - paragraph [ref=e59]: "[VERIFY: Confirm Benning Mazikure's Commonwealth Games gold medal details — 1998 or other year]"
+          - generic [ref=e60]: "[VERIFY: Confirm year]"
+        - generic [ref=e61]:
+          - img "Zimbabwe Under-19 cricket team celebrating" [ref=e63]
+          - generic [ref=e64]: Cricket
+          - heading "Zimbabwe U-19 Cricket Team" [level=3] [ref=e65]
+          - paragraph [ref=e66]: "[VERIFY: Confirm Zimbabwe's performance in ICC Under-19 Cricket World Cup 2023 — they reached the semi-finals]"
+          - generic [ref=e67]: "[VERIFY: Confirm tournament year]"
+        - generic [ref=e68]:
+          - img "Placeholder — replace with accurate Zimbabwean cricketer" [ref=e70]
+          - generic [ref=e71]: Cricket
+          - heading "Brian Lara" [level=3] [ref=e72]
+          - paragraph [ref=e73]: "[VERIFY: Brian Lara is from Trinidad and Tobago, NOT Zimbabwe — remove or replace with a real Zimbabwean cricketer such as Heath Streak, Andy Flower, or Grant Flowers]"
+          - generic [ref=e74]: "[VERIFY: Verify — may need to remove this entry entirely]"
+        - generic [ref=e75]:
+          - img "Zimbabwe national football team in action" [ref=e77]
+          - generic [ref=e78]: Football
+          - heading "Zimbabwe National Football Team (Zimbo Stars)" [level=3] [ref=e79]
+          - paragraph [ref=e80]: "[VERIFY: Confirm Zimbabwe's best Africa Cup of Nations performance — they reached the quarter-finals in 1980 and 2004]"
+          - generic [ref=e81]: 1980–present
+        - generic [ref=e82]:
+          - img "Placeholder for Zimbabwean athletics achievement" [ref=e84]
+          - generic [ref=e85]: Athletics
+          - 'heading "[VERIFY: Add notable Zimbabwean marathon runner or track athlete]" [level=3] [ref=e86]'
+          - paragraph [ref=e87]: "[VERIFY: Insert accurate details]"
+          - generic [ref=e88]: "[VERIFY: Confirm year]"
+        - generic [ref=e89]:
+          - img "Placeholder for Zimbabwean golf achievement" [ref=e91]
+          - generic [ref=e92]: Golf
+          - 'heading "[VERIFY: Add notable Zimbabwean golfer — e.g., Richard Sterne]" [level=3] [ref=e93]'
+          - paragraph [ref=e94]: "[VERIFY: Insert accurate details aboutPGA Tour wins or major championships]"
+          - generic [ref=e95]: "[VERIFY: Confirm year]"
+    - generic [ref=e97]:
+      - heading "Help Us Celebrate More Champions" [level=2] [ref=e98]
+      - paragraph [ref=e99]: This page is a living document. If you have knowledge of Zimbabwean sporting achievements that should be featured, we want to hear from you.
+      - link "Back to Home" [ref=e100] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e101]:
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - link "Zimbabwe Pride" [ref=e111] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e112]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e113]:
+          - heading "Explore" [level=3] [ref=e114]
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - link "Sports" [ref=e117] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e118]:
+              - link "Science & Innovation" [ref=e119] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e120]:
+              - link "National Progress" [ref=e121] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e122]:
+              - link "News" [ref=e123] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e124]:
+              - link "Food & Culture" [ref=e125] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e126]:
+              - link "People" [ref=e127] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e128]:
+              - link "Pride" [ref=e129] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e130]:
+              - link "Leadership" [ref=e131] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e132]:
+          - heading "Follow Us" [level=3] [ref=e133]
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Twitter" [ref=e136] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e137]:
+              - link "Facebook" [ref=e138] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e139]:
+              - link "Instagram" [ref=e140] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e141]:
+              - link "YouTube" [ref=e142] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e144]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+  - alert [ref=e145]

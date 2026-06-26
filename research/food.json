@@ -1,0 +1,14 @@
+{
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/A_plate_of_sadza.jpg/800px-A_plate_of_sadza.jpg",
+  "imageAlt": "A plate of sadza served with meat and vegetables, Zimbabwe's staple dish",
+  "dishes": [
+    {
+      "name": "Sadza",
+      "description": "A thick porridge made from maize (corn) meal, sadza is the undisputed staple of Zimbabwean cuisine. Known as 'sadza re masikai' at lunchtime and 'sadza re manheru' at dinner, it is eaten by most Zimbabweans at least once a day and served with a variety of relishes (nyama, greens, vegetables).",
+      "facts": [
+        "Sadza dates back to the 1890s when maize was first introduced to Southern Africa; before that, people made it from sorghum and millet.",
+        "In the Shona language, sadza is so central to daily life that 'sadza re masikai' (afternoon sadza) literally means lunch and 'sadza re manheru' (evening sadza) means dinner."
+      ]
+    }
+  ]
+}

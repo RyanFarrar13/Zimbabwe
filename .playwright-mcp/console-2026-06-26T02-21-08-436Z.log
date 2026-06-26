@@ -1,0 +1,11 @@
+[     106ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Sadza_nemurimi_by-doors_ofzimbabwe.jpg/800px-Sadza_nemurimi_by-doors_ofzimbabwe.jpg:0
+[     146ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nyama_choma%2C_sukuma_wiki_na_chipsi_mayai_%2835609217485%29.jpg/800px-Nyama_choma%2C_sukuma_wiki_na_chipsi_mayai_%2835609217485%29.jpg:0
+[     182ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Mopane_worms_%28Gonimbrasia_brucei%29.jpg/800px-Mopane_worms_%28Gonimbrasia_brucei%29.jpg:0
+[     227ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Chambo_fillet.jpg/800px-Chambo_fillet.jpg:0
+[   78674ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/c/ca/Sadza_nemurimi_by-doors_ofzimbabwe.jpg:0
+[   78804ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/0/0a/Nyama_choma%2C_sukuma_wiki_na_chipsi_mayai_%2835609217485%29.jpg:0
+[   78946ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/6/6a/Mopane_worms_%28Gonimbrasia_brucei%29.jpg:0
+[   80273ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/3/30/Chambo_fillet.jpg:0
+[   80380ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/4/42/Sadza_and_stew.jpg:0
+[   80504ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/9/9a/Sadza.jpg:0
+[   80640ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://upload.wikimedia.org/wikipedia/commons/a/ad/Mopane_worms.jpg:0

@@ -1,0 +1,119 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e9] [cursor=pointer]:
+          - /url: /sports
+        - link "Science & Innovation" [ref=e10] [cursor=pointer]:
+          - /url: /science
+        - link "National Progress" [ref=e11] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e12] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e13] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e14] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e15] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e16] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e17]:
+    - generic [ref=e19]:
+      - heading "Explore Zimbabwe Pride" [level=2] [ref=e20]
+      - generic [ref=e21]:
+        - link "🏆 Sports Champions & victories" [ref=e22] [cursor=pointer]:
+          - /url: /sports
+          - generic [ref=e23]: 🏆
+          - heading "Sports" [level=3] [ref=e24]
+          - paragraph [ref=e25]: Champions & victories
+        - link "🔬 Science & Innovation Breakthroughs & research" [ref=e26] [cursor=pointer]:
+          - /url: /science
+          - generic [ref=e27]: 🔬
+          - heading "Science & Innovation" [level=3] [ref=e28]
+          - paragraph [ref=e29]: Breakthroughs & research
+        - link "📈 National Progress Growth & development" [ref=e30] [cursor=pointer]:
+          - /url: /improvements
+          - generic [ref=e31]: 📈
+          - heading "National Progress" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Growth & development
+        - link "📰 News Latest updates" [ref=e34] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e35]: 📰
+          - heading "News" [level=3] [ref=e36]
+          - paragraph [ref=e37]: Latest updates
+        - link "🍲 Food & Culture Taste of Zimbabwe" [ref=e38] [cursor=pointer]:
+          - /url: /food
+          - generic [ref=e39]: 🍲
+          - heading "Food & Culture" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Taste of Zimbabwe
+        - link "🌟 People Notable Zimbabweans" [ref=e42] [cursor=pointer]:
+          - /url: /people
+          - generic [ref=e43]: 🌟
+          - heading "People" [level=3] [ref=e44]
+          - paragraph [ref=e45]: Notable Zimbabweans
+        - link "🏳️‍🌈 Pride Community & identity" [ref=e46] [cursor=pointer]:
+          - /url: /pride
+          - generic [ref=e47]: 🏳️‍🌈
+          - heading "Pride" [level=3] [ref=e48]
+          - paragraph [ref=e49]: Community & identity
+        - link "🏛️ Leadership Vision & direction" [ref=e50] [cursor=pointer]:
+          - /url: /leadership
+          - generic [ref=e51]: 🏛️
+          - heading "Leadership" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Vision & direction
+  - contentinfo [ref=e54]:
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - link "Zimbabwe Pride" [ref=e64] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e65]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e66]:
+          - heading "Explore" [level=3] [ref=e67]
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - link "Sports" [ref=e70] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e71]:
+              - link "Science & Innovation" [ref=e72] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e73]:
+              - link "National Progress" [ref=e74] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e75]:
+              - link "News" [ref=e76] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e77]:
+              - link "Food & Culture" [ref=e78] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e79]:
+              - link "People" [ref=e80] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e81]:
+              - link "Pride" [ref=e82] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e83]:
+              - link "Leadership" [ref=e84] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e85]:
+          - heading "Follow Us" [level=3] [ref=e86]
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - link "Twitter" [ref=e89] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e90]:
+              - link "Facebook" [ref=e91] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e92]:
+              - link "Instagram" [ref=e93] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e94]:
+              - link "YouTube" [ref=e95] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e97]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.

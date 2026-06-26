@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e9] [cursor=pointer]:
+          - /url: /sports
+        - link "Science & Innovation" [ref=e10] [cursor=pointer]:
+          - /url: /science
+        - link "National Progress" [ref=e11] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e12] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e13] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e14] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e15] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e16] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e17]:
+    - generic [ref=e20]:
+      - heading "People & Community" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Profiles of notable Zimbabweans across all fields — writers, musicians, athletes, chefs, entrepreneurs, and community leaders who are making Zimbabwe proud.
+    - generic [ref=e24]:
+      - heading "Notable Zimbabweans" [level=2] [ref=e25]
+      - paragraph [ref=e26]: Zimbabweans have made remarkable contributions across literature, sports, music, business, and the arts. Here we celebrate some of the brightest names — with more to be added as verified information becomes available.
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - img "NoViolet Bulawayo" [ref=e30]
+          - generic [ref=e31]: Literature
+          - heading "NoViolet Bulawayo" [level=3] [ref=e32]
+          - paragraph [ref=e33]: "[VERIFY: NoViolet Bulawayo is a Zimbabwean author known for 'We Need New Paradise'. Confirm Booker Prize shortlist status and other works including 'Help Me Belong'"
+          - blockquote [ref=e34]: "\"[VERIFY: Insert a real quote if available, or remove this field]\""
+        - generic [ref=e35]:
+          - img "Tsitsi Dangarembga" [ref=e37]
+          - generic [ref=e38]: Literature & Film
+          - heading "Tsitsi Dangarembga" [level=3] [ref=e39]
+          - paragraph [ref=e40]: "[VERIFY: Tsitsi Dangarembga is a Zimbabwean writer and filmmaker. Her novel 'Nervous Conditions' was shortlisted for the International Booker Prize. She is also a film director and activist]"
+          - blockquote [ref=e41]: "\"[VERIFY: Insert a real quote if available, or remove this field]\""
+        - generic [ref=e42]:
+          - img "Kirsty Coventry" [ref=e44]
+          - generic [ref=e45]: Sports
+          - heading "Kirsty Coventry" [level=3] [ref=e46]
+          - paragraph [ref=e47]: "[VERIFY: Olympic swimming legend — 7 medals across three Olympics (1 gold, 4 silver, 2 bronze). Also serves as a Zimbabwean politician and sports administrator]"
+          - blockquote [ref=e48]: "\"[VERIFY: Insert a real quote if available, or remove this field]\""
+        - generic [ref=e49]:
+          - 'img "[VERIFY: Add a notable Zimbabwean musician — e.g., Thomas Mapfumo, Oliver Mtukudzi]" [ref=e51]'
+          - generic [ref=e52]: Music
+          - 'heading "[VERIFY: Add a notable Zimbabwean musician — e.g., Thomas Mapfumo, Oliver Mtukudzi]" [level=3] [ref=e53]'
+          - paragraph [ref=e54]: "[VERIFY: Insert accurate biographical details about the musician]"
+          - blockquote [ref=e55]: "\"[VERIFY: Insert a real quote if available, or remove this field]\""
+        - generic [ref=e56]:
+          - 'img "[VERIFY: Add a notable Zimbabwean chef or culinary figure]" [ref=e58]'
+          - generic [ref=e59]: Culinary Arts
+          - 'heading "[VERIFY: Add a notable Zimbabwean chef or culinary figure]" [level=3] [ref=e60]'
+          - paragraph [ref=e61]: "[VERIFY: Insert accurate biographical details]"
+          - blockquote [ref=e62]: "\"[VERIFY: Insert a real quote if available, or remove this field]\""
+        - generic [ref=e63]:
+          - 'img "[VERIFY: Add a notable Zimbabwean entrepreneur or business leader]" [ref=e65]'
+          - generic [ref=e66]: Business
+          - 'heading "[VERIFY: Add a notable Zimbabwean entrepreneur or business leader]" [level=3] [ref=e67]'
+          - paragraph [ref=e68]: "[VERIFY: Insert accurate biographical details]"
+          - blockquote [ref=e69]: "\"[VERIFY: Insert a real quote if available, or remove this field]\""
+      - heading "Community Stories" [level=2] [ref=e70]
+      - generic [ref=e72]:
+        - heading "Community Stories" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Zimbabwe's strength lies in its communities. From rural villages to urban neighborhoods, everyday Zimbabweans are making extraordinary contributions to their communities every day.
+        - paragraph [ref=e75]: "[VERIFY: Add real community stories and testimonials from Zimbabweans]"
+    - generic [ref=e77]:
+      - heading "Every Zimbabwean Has a Story Worth Telling" [level=2] [ref=e78]
+      - paragraph [ref=e79]: This page celebrates the diversity and talent of Zimbabwe's people. If you know someone who should be featured, we'd love to hear from you.
+      - link "Back to Home" [ref=e80] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e81]:
+    - generic [ref=e88]:
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - link "Zimbabwe Pride" [ref=e91] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e92]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e93]:
+          - heading "Explore" [level=3] [ref=e94]
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - link "Sports" [ref=e97] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e98]:
+              - link "Science & Innovation" [ref=e99] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e100]:
+              - link "National Progress" [ref=e101] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e102]:
+              - link "News" [ref=e103] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e104]:
+              - link "Food & Culture" [ref=e105] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e106]:
+              - link "People" [ref=e107] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e108]:
+              - link "Pride" [ref=e109] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e110]:
+              - link "Leadership" [ref=e111] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e112]:
+          - heading "Follow Us" [level=3] [ref=e113]
+          - list [ref=e114]:
+            - listitem [ref=e115]:
+              - link "Twitter" [ref=e116] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e117]:
+              - link "Facebook" [ref=e118] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e119]:
+              - link "Instagram" [ref=e120] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e121]:
+              - link "YouTube" [ref=e122] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e124]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+  - alert [ref=e125]

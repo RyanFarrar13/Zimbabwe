@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - button "Toggle navigation menu" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e13]:
+      - heading "Science & Innovation" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Zimbabwe's brightest minds are driving progress in medicine, technology, agriculture, and beyond. From university research labs to tech startups, innovation is at the heart of Zimbabwe's future.
+    - generic [ref=e17]:
+      - heading "Innovators & Researchers" [level=2] [ref=e18]
+      - paragraph [ref=e19]: Zimbabwean scientists, inventors, and academics who are making their mark on the world. Every breakthrough starts with curiosity and determination.
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - img "Placeholder for Zimbabwean medical researcher" [ref=e23]
+          - generic [ref=e24]: Medical Research
+          - generic [ref=e25]: "[VERIFY: Institution name]"
+          - 'heading "[VERIFY: Zimbabwean medical researcher]" [level=3] [ref=e26]'
+          - paragraph [ref=e27]: "[VERIFY: Insert real achievements of Zimbabwean medical researcher]"
+        - generic [ref=e28]:
+          - img "Placeholder for Zimbabwean tech entrepreneur" [ref=e30]
+          - generic [ref=e31]: Technology
+          - generic [ref=e32]: "[VERIFY: Company or organization]"
+          - 'heading "[VERIFY: Zimbabwean tech entrepreneur]" [level=3] [ref=e33]'
+          - paragraph [ref=e34]: "[VERIFY: Insert real achievements of Zimbabwean tech entrepreneur]"
+        - generic [ref=e35]:
+          - img "Placeholder for Zimbabwean agricultural scientist" [ref=e37]
+          - generic [ref=e38]: Agriculture
+          - generic [ref=e39]: University of Zimbabwe [VERIFY]
+          - 'heading "[VERIFY: Zimbabwean agricultural scientist]" [level=3] [ref=e40]'
+          - paragraph [ref=e41]: "[VERIFY: Insert real achievements of Zimbabwean agricultural scientist]"
+        - generic [ref=e42]:
+          - img "Placeholder for Zimbabwean academic" [ref=e44]
+          - generic [ref=e45]: Science & Innovation
+          - generic [ref=e46]: "[VERIFY: Institution]"
+          - 'heading "[VERIFY: Notable Zimbabwean academic or inventor]" [level=3] [ref=e47]'
+          - paragraph [ref=e48]: "[VERIFY: Insert real achievements]"
+    - generic [ref=e50]:
+      - heading "Research Institutions" [level=2] [ref=e51]
+      - paragraph [ref=e52]: The universities and research centers that nurture Zimbabwe's scientific talent.
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e56]: 🏛️
+          - generic [ref=e57]:
+            - heading "University of Zimbabwe" [level=3] [ref=e58]
+            - paragraph [ref=e59]: "[VERIFY: Insert accurate information about the University of Zimbabwe's research contributions]"
+        - generic [ref=e60]:
+          - generic [ref=e62]: 🏛️
+          - generic [ref=e63]:
+            - 'heading "[VERIFY: Another Zimbabwean university or research institution]" [level=3] [ref=e64]'
+            - paragraph [ref=e65]: "[VERIFY: Insert accurate information]"
+    - generic [ref=e67]:
+      - heading "Innovation is Zimbabwe's Future" [level=2] [ref=e68]
+      - paragraph [ref=e69]: From the lecture halls of the University of Zimbabwe to tech hubs in Harare and Bulawayo, Zimbabwe's next generation of innovators is rising.
+      - link "Back to Home" [ref=e70] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e71]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - link "Zimbabwe Pride" [ref=e81] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e82]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e83]:
+          - heading "Explore" [level=3] [ref=e84]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "Sports" [ref=e87] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e88]:
+              - link "Science & Innovation" [ref=e89] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e90]:
+              - link "National Progress" [ref=e91] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e92]:
+              - link "News" [ref=e93] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e94]:
+              - link "Food & Culture" [ref=e95] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e96]:
+              - link "People" [ref=e97] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e98]:
+              - link "Pride" [ref=e99] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e100]:
+              - link "Leadership" [ref=e101] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e102]:
+          - heading "Follow Us" [level=3] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "Twitter" [ref=e106] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e107]:
+              - link "Facebook" [ref=e108] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e109]:
+              - link "Instagram" [ref=e110] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e111]:
+              - link "YouTube" [ref=e112] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e114]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+  - alert [ref=e115]

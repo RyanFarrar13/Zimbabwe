@@ -1,0 +1,117 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - button "Toggle navigation menu" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+  - main [ref=e10]:
+    - generic [ref=e13]:
+      - heading "National Progress" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Zimbabwe's journey of growth and development — from infrastructure projects to healthcare improvements, education milestones to agricultural innovation. Progress is steady, challenges are acknowledged honestly.
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: "[VERIFY]"
+        - paragraph [ref=e21]: Roads Built (km)
+      - generic [ref=e22]:
+        - generic [ref=e23]: "[VERIFY]"
+        - paragraph [ref=e24]: Schools Upgraded
+      - generic [ref=e25]:
+        - generic [ref=e26]: "[VERIFY]"
+        - paragraph [ref=e27]: Health Clinics
+      - generic [ref=e28]:
+        - generic [ref=e29]: "[VERIFY]"
+        - paragraph [ref=e30]: Farmers Supported
+    - generic [ref=e32]:
+      - heading "Key Areas of Progress" [level=2] [ref=e33]
+      - paragraph [ref=e34]: Zimbabwe is making progress across multiple sectors. Each development represents hope, investment, and the determination of a nation moving forward.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - 'img "[VERIFY: Infrastructure development project]" [ref=e38]'
+          - generic [ref=e39]: Infrastructure
+          - 'heading "[VERIFY: Infrastructure development project]" [level=3] [ref=e40]'
+          - paragraph [ref=e41]: "[PLACEHOLDER: Replace with real information about Zimbabwe's infrastructure progress]"
+          - generic [ref=e42]:
+            - generic [ref=e43]: "[VERIFY: Insert accurate figure]"
+            - generic [ref=e44]: "[VERIFY: Source of data]"
+        - generic [ref=e45]:
+          - 'img "[VERIFY: Healthcare improvement initiative]" [ref=e47]'
+          - generic [ref=e48]: Healthcare
+          - 'heading "[VERIFY: Healthcare improvement initiative]" [level=3] [ref=e49]'
+          - paragraph [ref=e50]: "[PLACEHOLDER: Replace with real information about healthcare progress in Zimbabwe]"
+          - generic [ref=e51]:
+            - generic [ref=e52]: "[VERIFY: Insert accurate figure]"
+            - generic [ref=e53]: "[VERIFY: Source of data]"
+        - generic [ref=e54]:
+          - 'img "[VERIFY: Education progress milestone]" [ref=e56]'
+          - generic [ref=e57]: Education
+          - 'heading "[VERIFY: Education progress milestone]" [level=3] [ref=e58]'
+          - paragraph [ref=e59]: "[PLACEHOLDER: Replace with real information about education progress in Zimbabwe]"
+          - generic [ref=e60]:
+            - generic [ref=e61]: "[VERIFY: Insert accurate figure]"
+            - generic [ref=e62]: "[VERIFY: Source of data]"
+        - generic [ref=e63]:
+          - 'img "[VERIFY: Agricultural development achievement]" [ref=e65]'
+          - generic [ref=e66]: Agriculture
+          - 'heading "[VERIFY: Agricultural development achievement]" [level=3] [ref=e67]'
+          - paragraph [ref=e68]: "[PLACEHOLDER: Replace with real information about agricultural progress in Zimbabwe]"
+          - generic [ref=e69]:
+            - generic [ref=e70]: "[VERIFY: Insert accurate figure]"
+            - generic [ref=e71]: "[VERIFY: Source of data]"
+    - generic [ref=e73]:
+      - heading "Building a Better Tomorrow" [level=2] [ref=e74]
+      - paragraph [ref=e75]: Zimbabwe's story is one of resilience and progress. Every road built, every school upgraded, every clinic opened brings the nation closer to its full potential.
+      - link "Back to Home" [ref=e76] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e77]:
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - link "Zimbabwe Pride" [ref=e87] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e88]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e89]:
+          - heading "Explore" [level=3] [ref=e90]
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Sports" [ref=e93] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e94]:
+              - link "Science & Innovation" [ref=e95] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e96]:
+              - link "National Progress" [ref=e97] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e98]:
+              - link "News" [ref=e99] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e100]:
+              - link "Food & Culture" [ref=e101] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e102]:
+              - link "People" [ref=e103] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e104]:
+              - link "Pride" [ref=e105] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e106]:
+              - link "Leadership" [ref=e107] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e108]:
+          - heading "Follow Us" [level=3] [ref=e109]
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Twitter" [ref=e112] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e113]:
+              - link "Facebook" [ref=e114] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e115]:
+              - link "Instagram" [ref=e116] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e117]:
+              - link "YouTube" [ref=e118] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e120]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+  - alert [ref=e121]

@@ -1,0 +1,129 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e4]:
+      - link "Zimbabwe Pride" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Zimbabwe Pride
+      - generic [ref=e7]:
+        - link "Home" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e9] [cursor=pointer]:
+          - /url: /sports
+        - link "Science & Innovation" [ref=e10] [cursor=pointer]:
+          - /url: /science
+        - link "National Progress" [ref=e11] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e12] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e13] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e14] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e15] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e16] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e17]:
+    - generic [ref=e27]:
+      - heading "Zimbabwe Pride 🏳️‍🌈" [level=1] [ref=e28]
+      - paragraph [ref=e29]: A vibrant space for Zimbabwe's LGBTQ+ community — discussing legal changes, sharing stories, and celebrating identity with pride and dignity.
+    - generic [ref=e31]:
+      - heading "Legal Context — LGBTQ+ Rights in Zimbabwe" [level=2] [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - heading "Colonial-Era Laws" [level=3] [ref=e35]
+          - paragraph [ref=e36]: "[VERIFY: Zimbabwe inherited colonial-era laws criminalizing same-sex relations. The exact legal provisions and their current status should be confirmed against verified human rights sources such as ILGA World, Human Rights Watch, or the Zimbabwe Human Rights Commission.]"
+        - generic [ref=e37]:
+          - heading "Recent Legal Developments" [level=3] [ref=e38]
+          - paragraph [ref=e39]: "[VERIFY: Insert accurate, current information about any legal changes affecting LGBTQ+ rights in Zimbabwe. This should be sourced from verified human rights organizations and legal databases.]"
+        - generic [ref=e40]:
+          - heading "International Context" [level=3] [ref=e41]
+          - paragraph [ref=e42]: "[VERIFY: Information about international human rights positions on LGBTQ+ rights in Zimbabwe, including any UN resolutions or regional court decisions.]"
+        - generic [ref=e43]:
+          - heading "Civil Society & Advocacy" [level=3] [ref=e44]
+          - paragraph [ref=e45]: "[VERIFY: Information about LGBTQ+ advocacy organizations in Zimbabwe, their work, and the challenges they face. Sources should include verified human rights reports and organizational websites.]"
+      - paragraph [ref=e47]:
+        - text: ⚠️
+        - strong [ref=e48]: "Disclaimer:"
+        - text: This page discusses sensitive legal and social topics. All content is placeholder and must be verified against credible human rights sources before publication. We aim to present facts accurately and with respect for the dignity of all individuals.
+    - generic [ref=e50]:
+      - heading "Community Stories" [level=2] [ref=e51]
+      - paragraph [ref=e52]: Stories from the Zimbabwean LGBTQ+ community — voices of courage, resilience, and pride. Each story deserves to be told with respect, consent, and accuracy.
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - blockquote [ref=e55]: "\"[PLACEHOLDER: Replace with a real community story or testimonial — obtain consent]\""
+          - generic [ref=e56]:
+            - generic [ref=e57]: "["
+            - generic [ref=e58]:
+              - paragraph [ref=e59]: "[VERIFY: Community story from LGBTQ+ Zimbabwean]"
+              - paragraph [ref=e60]: "[VERIFY: Community or organization name]"
+        - generic [ref=e61]:
+          - blockquote [ref=e62]: "\"[PLACEHOLDER: Replace with a real community story or testimonial — obtain consent]\""
+          - generic [ref=e63]:
+            - generic [ref=e64]: "["
+            - generic [ref=e65]:
+              - paragraph [ref=e66]: "[VERIFY: Another community story]"
+              - paragraph [ref=e67]: "[VERIFY: Community or organization name]"
+        - generic [ref=e68]:
+          - blockquote [ref=e69]: "\"[PLACEHOLDER: Replace with a real community story or testimonial — obtain consent]\""
+          - generic [ref=e70]:
+            - generic [ref=e71]: "["
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: "[VERIFY: Another community story]"
+              - paragraph [ref=e74]: "[VERIFY: Community or organization name]"
+    - generic [ref=e76]:
+      - heading "Proud to Be Zimbabwean 🇿🇼" [level=2] [ref=e77]
+      - paragraph [ref=e78]: Zimbabwe's diversity is its strength. Every person, regardless of identity, deserves to live with dignity, respect, and the freedom to be themselves.
+      - link "Back to Home" [ref=e79] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e80]:
+    - generic [ref=e87]:
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - link "Zimbabwe Pride" [ref=e90] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e91]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e92]:
+          - heading "Explore" [level=3] [ref=e93]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - link "Sports" [ref=e96] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e97]:
+              - link "Science & Innovation" [ref=e98] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e99]:
+              - link "National Progress" [ref=e100] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e101]:
+              - link "News" [ref=e102] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e103]:
+              - link "Food & Culture" [ref=e104] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e105]:
+              - link "People" [ref=e106] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e107]:
+              - link "Pride" [ref=e108] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e109]:
+              - link "Leadership" [ref=e110] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e111]:
+          - heading "Follow Us" [level=3] [ref=e112]
+          - list [ref=e113]:
+            - listitem [ref=e114]:
+              - link "Twitter" [ref=e115] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e116]:
+              - link "Facebook" [ref=e117] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e118]:
+              - link "Instagram" [ref=e119] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e120]:
+              - link "YouTube" [ref=e121] [cursor=pointer]:
+                - /url: "#"
+      - paragraph [ref=e123]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+  - alert [ref=e124]
