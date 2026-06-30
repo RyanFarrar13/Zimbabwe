@@ -41,6 +41,7 @@ export default function FoodPage() {
         title="Food & Culture"
         subtitle="Zimbabwe's cuisine is a celebration of flavor, tradition, and community. From the staple dish sadza to the beloved braai culture, every meal tells a story of heritage and togetherness."
         gradient="green-gold"
+        imageSrc={dishes[0].image}
       />
 
       {/* Food Categories */}

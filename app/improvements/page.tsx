@@ -8,15 +8,6 @@ import { improvements } from "@/lib/data/improvements";
 import { chartData } from "@/lib/data/improvements";
 import { motion } from "framer-motion";
 
-const improvementImages = [
-  "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1523050854058.89405536-2d7a59f3e2?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1558618666-fcd25c85f82?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1532992125682-c4b17c1?w=600&h=400&fit=crop",
-];
-
 function ImprovementCard({ improvement, index }: { improvement: (typeof improvements)[number]; index: number }) {
   const categoryColors: Record<string, "green" | "gold" | "red" | "black"> = {
     Technology: "green",
@@ -35,7 +26,7 @@ function ImprovementCard({ improvement, index }: { improvement: (typeof improvem
       transition={{ delay: index * 0.1, duration: 0.5 }}
       whileHover={{ y: -4 }}
     >
-      <Card className="h-full flex flex-col" imageSrc={improvementImages[index % improvementImages.length]} imageAlt={improvement.title}>
+      <Card className="h-full flex flex-col" imageSrc={improvement.image} imageAlt={improvement.imageAlt || improvement.title}>
         <Badge color={categoryColors[improvement.category] || "green"}>
           {improvement.category}
         </Badge>
@@ -97,7 +88,7 @@ export default function ImprovementsPage() {
         title="National Progress"
         subtitle="Zimbabwe's journey of growth and development — from infrastructure projects to healthcare improvements, education milestones to agricultural innovation. Progress is steady, challenges are acknowledged honestly."
         gradient="green-gold"
-        imageSrc="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&h=400&fit=crop"
+        imageSrc="/images/improvements-hero.jpg"
       />
 
       {/* Stats Overview */}

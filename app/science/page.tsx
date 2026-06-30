@@ -1,18 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import HeroSection from "@/components/ui/HeroSection";
 import Card from "@/components/ui/Card";
 import Badge from "@/components/ui/Badge";
-import { scientists, institutions } from "@/lib/data/science";
+import { scientists, institutions, scienceFacts } from "@/lib/data/science";
 import { motion } from "framer-motion";
-
-const scienceImages = [
-  "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1581093458791-9d42e3c24e5a?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1581093448692-3d082ef20931?w=600&h=400&fit=crop",
-];
 
 function ScientistCard({ scientist, index }: { scientist: (typeof scientists)[number]; index: number }) {
   return (
@@ -23,7 +17,7 @@ function ScientistCard({ scientist, index }: { scientist: (typeof scientists)[nu
       transition={{ delay: index * 0.12, duration: 0.5 }}
       whileHover={{ y: -4 }}
     >
-      <Card className="h-full flex flex-col" imageSrc={scienceImages[index % scienceImages.length]} imageAlt={scientist.imageAlt}>
+      <Card className="h-full flex flex-col" imageSrc={scientist.imageUrl || "/images/science-fallback-2.jpg"} imageAlt={scientist.imageAlt}>
         <Badge color="green">{scientist.field}</Badge>
         {scientist.institution && (
           <span className="text-xs font-inter text-zw-black/50 mt-1">{scientist.institution}</span>
@@ -69,7 +63,8 @@ export default function SciencePage() {
         title="Science & Innovation"
         subtitle="Zimbabwe's brightest minds are driving progress in medicine, technology, agriculture, and beyond. From university research labs to tech startups, innovation is at the heart of Zimbabwe's future."
         gradient="green-gold"
-        imageSrc="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1200&h=400&fit=crop"
+        imageSrc="/images/satellite-zimbabwe-2002.jpg"
+        imageAlt="Satellite view of Zimbabwe, representing the nation's scientific potential and natural resources"
       />
 
       {/* Scientists Grid */}
@@ -91,10 +86,12 @@ export default function SciencePage() {
       {/* Innovation Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-zw-green via-emerald-900 to-zw-green text-white py-16 md:py-20">
         <div className="absolute inset-0 opacity-10">
-          <img
-            src="https://images.unsplash.com/photo-1581093458791-9d42e3c24e5a?w=1200&h=400&fit=crop"
-            alt="Innovation lab"
-            className="w-full h-full object-cover"
+          <Image
+            src="/images/great-zimbabwe.jpg"
+            alt="Great Zimbabwe ruins — symbol of Zimbabwe's ancient innovation and engineering prowess"
+            fill
+            className="object-cover"
+            unoptimized={false}
           />
         </div>
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -105,6 +102,46 @@ export default function SciencePage() {
             From the lecture halls of the University of Zimbabwe to tech hubs in Harare and Bulawayo,
             Zimbabwe's next generation of innovators is rising — building solutions for Africa and the world.
           </p>
+        </div>
+      </section>
+
+      {/* Science Facts */}
+      <section className="section-padding bg-zw-warm">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="section-title text-center">Science & Discovery</h2>
+          <p className="section-subtitle text-center max-w-3xl mx-auto">
+            From the Great Dyke's mineral wealth to Zimbabwe's role in global astronomy, discovery is woven into the country's landscape and research.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            {scienceFacts.map((fact, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.08, duration: 0.5 }}
+              >
+                <Card className="overflow-hidden h-full flex flex-col">
+                  {fact.imageUrl && (
+                    <div className="relative w-full h-48 overflow-hidden">
+                      <Image
+                        src={fact.imageUrl}
+                        alt={fact.imageAlt || fact.title}
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  )}
+                  <div className="p-5 flex-1">
+                    <h3 className="text-lg font-outfit font-semibold mb-2">{fact.title}</h3>
+                    <p className="text-sm font-inter text-zw-black/70 leading-relaxed">
+                      {fact.content}
+                    </p>
+                  </div>
+                </Card>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 

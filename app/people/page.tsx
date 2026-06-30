@@ -7,16 +7,6 @@ import Badge from "@/components/ui/Badge";
 import { people } from "@/lib/data/people";
 import { motion } from "framer-motion";
 
-const personImages = [
-  "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1539375665275-f068bc1df07a?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&h=400&fit=crop",
-];
-
 function PersonCard({ person, index }: { person: (typeof people)[number]; index: number }) {
   const fieldColors: Record<string, "green" | "gold" | "red" | "black"> = {
     Literature: "green",
@@ -34,7 +24,7 @@ function PersonCard({ person, index }: { person: (typeof people)[number]; index:
       transition={{ delay: index * 0.1, duration: 0.5 }}
       whileHover={{ y: -4 }}
     >
-      <Card className="h-full flex flex-col" imageSrc={personImages[index % personImages.length]} imageAlt={`${person.name} portrait`}>
+      <Card className="h-full flex flex-col" imageSrc={person.imageSrc} imageAlt={`${person.name} portrait`}>
         <Badge color={fieldColors[person.field] || "green"}>
           {person.field}
         </Badge>

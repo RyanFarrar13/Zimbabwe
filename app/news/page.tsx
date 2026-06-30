@@ -47,9 +47,7 @@ function NewsCard({ item, index }: { item: (typeof newsItems)[number]; index: nu
   );
 }
 
-function CategoryFilter() {
-  const [active, setActive] = useState("All");
-
+function CategoryFilter({ active, setActive }: { active: string; setActive: (cat: string) => void }) {
   return (
     <section className="bg-white py-6 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -74,6 +72,13 @@ function CategoryFilter() {
 }
 
 export default function NewsPage() {
+  const [activeCategory, setActiveCategory] = useState("All");
+
+  const filteredItems =
+    activeCategory === "All"
+      ? newsItems
+      : newsItems.filter((item) => item.category === activeCategory);
+
   return (
     <>
       <HeroSection
@@ -82,7 +87,44 @@ export default function NewsPage() {
         gradient="green-gold"
       />
 
-      <CategoryFilter />
+      <CategoryFilter active={activeCategory} setActive={setActiveCategory} />
+
+      {/* Featured: Infrastructure Development */}
+      <section className="bg-white py-10 md:py-14 border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <Badge color="black">Infrastructure Development</Badge>
+            <h2 className="text-2xl md:text-3xl font-outfit font-bold mt-4 mb-6">
+              Building the Future — Roads, Energy &amp; Beyond
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="md:col-span-2 rounded-2xl overflow-hidden shadow-lg bg-zw-warm">
+                <img
+                  src="/images/news-hero.jpg"
+                  alt="Infrastructure development in Zimbabwe — road construction and modernization"
+                  className="w-full h-64 md:h-80 object-cover"
+                />
+              </div>
+              <div className="flex flex-col justify-center">
+                <p className="text-sm font-inter text-zw-black/80 leading-relaxed mb-4">
+                  Major road rehabilitation projects have connected key cities and border posts across Zimbabwe. The Harare–Southdowns highway, Belt Road, and other infrastructure upgrades have dramatically improved transport links — over 1,000 km of roads rehabilitated under the New Reconstruction and Development Programme.
+                </p>
+                <p className="text-sm font-inter text-zw-black/80 leading-relaxed mb-4">
+                  Energy infrastructure is expanding too, with solar farms and net-metering programs targeting 500 MW of new capacity. From rural electrification to urban transit, infrastructure is the backbone of Zimbabwe's growth story.
+                </p>
+                <span className="text-xs font-inter text-zw-black/50">
+                  Source: Ministry of Roads and Infrastructure / World Bank
+                </span>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
 
       {/* News Grid */}
       <section className="section-padding bg-zw-warm">
@@ -105,11 +147,17 @@ export default function NewsPage() {
             Zimbabwe's story is one of growth, challenge, and resilience — captured in the latest developments shaping the nation.
           </motion.p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {newsItems.map((item, i) => (
-              <NewsCard key={i} item={item} index={i} />
-            ))}
-          </div>
+          {filteredItems.length === 0 ? (
+            <p className="text-center text-zw-black/50 font-inter py-12">
+              No news items found in this category yet.
+            </p>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredItems.map((item, i) => (
+                <NewsCard key={i} item={item} index={i} />
+              ))}
+            </div>
+          )}
         </div>
       </section>
 

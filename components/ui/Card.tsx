@@ -2,7 +2,6 @@
 
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 interface CardProps {
   children: React.ReactNode;
@@ -36,11 +35,10 @@ export default function Card({
     >
       {imageSrc && (
         <div className="relative w-full h-48 overflow-hidden group">
-          <Image
+          <img
             src={imageSrc}
             alt={imageAlt || "Card image"}
-            fill
-            className="object-cover transition-transform duration-500 group-hover:scale-110"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
         </div>

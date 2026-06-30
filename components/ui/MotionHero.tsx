@@ -5,10 +5,9 @@ import Badge from "./Badge";
 import Link from "next/link";
 
 const floatingImages = [
-  { src: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=300&h=200&fit=crop", alt: "Zimbabwean landscape", pos: "top-20 left-[5%]" },
-  { src: "https://images.unsplash.com/photo-1523805009345-7448845a9e53?w=300&h=200&fit=crop", alt: "African wildlife", pos: "top-40 right-[8%]" },
-  { src: "https://images.unsplash.com/photo-1489792303676-aa5b2e325a33?w=300&h=200&fit=crop", alt: "Traditional music", pos: "bottom-20 left-[10%]" },
-  { src: "https://images.unsplash.com/photo-1597302628824-ab00af6f3e2c?w=300&h=200&fit=crop", alt: "African community", pos: "bottom-32 right-[5%]" },
+  { src: "/images/landscape.jpg", alt: "Zimbabwean savannah landscape", pos: "top-20 left-[5%]" },
+  { src: "/images/traditional-music.jpg", alt: "Traditional music performance", pos: "bottom-20 left-[10%]" },
+  { src: "/images/community.jpg", alt: "Zimbabwean community gathering", pos: "bottom-32 right-[5%]" },
 ];
 
 export default function MotionHero() {

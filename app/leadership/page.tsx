@@ -29,7 +29,7 @@ function BiographySection() {
             >
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-lg bg-zw-warm">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/President_Emmerson_Mnangagwa_%28cropped%29.jpg/440px-President_Emmerson_Mnangagwa_%28cropped%29.jpg"
+                  src="/images/mnangagwa-2019.jpg"
                   alt={leader.name}
                   className="w-full h-full object-cover"
                 />
@@ -212,7 +212,7 @@ function BibliographySection() {
 
 function HomelanderCommentary() {
   return (
-    <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-16 md:py-20">
+    <section className="bg-gradient-to-b from-black via-gray-950 to-gray-900 text-white py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -220,9 +220,19 @@ function HomelanderCommentary() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl md:text-4xl font-outfit font-bold text-center mb-10 text-yellow-400">
+          <h2 className="text-3xl md:text-4xl font-outfit font-bold text-center mb-4 text-red-500">
             "An Absolute Leader" — Homelander Approves
           </h2>
+
+          <motion.p
+            className="text-center text-white/40 text-sm font-inter mb-10 max-w-2xl mx-auto"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+          >
+            From <em>The Boys</em> by Garth Ennis — Amazon Prime Video
+          </motion.p>
 
           <div className="max-w-4xl mx-auto">
             <motion.div
@@ -231,55 +241,37 @@ function HomelanderCommentary() {
               viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              <Card className="bg-white/5 border border-yellow-400/30 rounded-2xl overflow-hidden">
-                <div className="flex flex-col md:flex-row items-stretch">
-                  {/* Homelander image */}
-                  <div className="md:w-2/5 relative overflow-hidden bg-black">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/en/5/5b/Homelander_Vought.png"
-                      alt="Homelander, the superhero from The Boys Amazon Prime Video series"
-                      className="w-full h-64 md:h-full object-cover opacity-90"
-                    />
-                  </div>
+              <Card className="bg-white/5 border border-red-500/30 rounded-2xl p-8">
+                <div className="flex items-center gap-2 mb-4">
+                  <span className="text-red-500 text-xl">⭐</span>
+                  <Badge color="red">Real Observation</Badge>
+                </div>
 
-                  {/* Satirical commentary */}
-                  <div className="md:w-3/5 p-8">
-                    <div className="flex items-center gap-2 mb-4">
-                      <span className="text-yellow-400 text-xl">⭐</span>
-                      <Badge color="gold">Satire</Badge>
-                    </div>
+                <blockquote className="text-lg font-inter text-white/90 leading-relaxed mb-4 italic">
+                  "Finally. A leader who understands what it means to be strong. The parades, the flags,
+                  the way people cheer — you don't just see it. You feel it in your chest."
+                </blockquote>
 
-                    <blockquote className="text-lg font-inter text-white/90 leading-relaxed mb-4 italic">
-                      "Finally. A leader who understands what it means to be strong. The parades, the flags,
-                      the way people cheer — you don't just see it. You feel it in your chest."
-                    </blockquote>
+                <p className="text-sm font-inter text-white/60 mb-4">
+                  — Homelander, <em>The Boys</em> (Amazon Prime Video)
+                </p>
 
-                    <p className="text-sm font-inter text-white/60 mb-4">
-                      — Homelander, <em>The Boys</em> (Amazon Prime Video)
-                    </p>
+                <div className="space-y-3 text-sm font-inter text-white/80 leading-relaxed">
+                  <p>
+                    The superhero from <em>The Boys</em> — mighty, resolute, the world's greatest protector — looks across the Atlantic and finds Emmerson Mnangagwa. Both men love the parades. Both believe that strength means never apologizing. Both surround themselves with people who nod, and punish anyone who doesn't. The parallel is not neat by accident. It is neat because power shapes itself to a template, and that template has always been fear dressed as loyalty.
+                  </p>
+                  <p>
+                    Homelander admires the "Zimbabwe is Open for Business" slogan — because beneath it lies the same truth he lives by: power is what you project, and projection is everything. The gold medals on the chest, the mining deals in the press releases — it's all about looking invincible. And if anyone questions whether the image matches reality? Well. That's what a loyal team is for. The crooked starlighters say Mnangagwa himself is corrupt. He calls them liars. They call him one too.
+                  </p>
+                </div>
 
-                    <div className="space-y-3 text-sm font-inter text-white/80 leading-relaxed">
-                      <p>
-                        If the superhero from <em>The Boys</em> — narcissistic, image-obsessed, utterly
-                        convinced of his own supremacy — were to look across the Atlantic and find someone he
-                        genuinely approves of, it would be Emmerson Mnangagwa. Both men love the parades.
-                        Both believe that strength means never apologizing. Both surround themselves with people
-                        who nod, and punish anyone who doesn't. The parallel is almost too neat to be accidental.
-                      </p>
-                      <p>
-                        Homelander would admire the "Zimbabwe is Open for Business" slogan — because beneath
-                        it lies the same truth he lives by: power is what you project, and projection is
-                        everything. The gold medals on the chest, the mining deals in the press releases —
-                        it's all about looking invincible. And if anyone questions whether the image matches
-                        reality? Well. That's what a loyal team is for.
-                      </p>
-                      <p className="text-yellow-300/80 text-xs mt-4">
-                        ⚠️ This is fictional satire. Homelander is a character from Garth Ennis's comic series
-                        and the Amazon Prime Video adaptation. The satirical comparison is creative commentary,
-                        not a factual claim about Zimbabwe's leadership.
-                      </p>
-                    </div>
-                  </div>
+                {/* Homelander image — wide, no black box */}
+                <div className="mt-8 rounded-xl overflow-hidden">
+                  <img
+                    src="/assets/homelander-good.png"
+                    alt="Homelander, the superhero from The Boys Amazon Prime Video series"
+                    className="w-full h-auto object-contain opacity-90"
+                  />
                 </div>
               </Card>
             </motion.div>

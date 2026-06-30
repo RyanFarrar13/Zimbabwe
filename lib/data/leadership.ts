@@ -22,7 +22,7 @@ export const leaderInfo: LeaderInfo[] = [
     name: "Emmerson Dambudzo Mnangagwa",
     role: "President of Zimbabwe (2017–present)",
     description:
-      "Emmerson Mnangagwa became President of Zimbabwe on November 21, 2017, following the resignation of Robert Mugabe after a military-assisted transition. Born in Zvishavane in July 1942, he was a member of ZANU-PF since the 1960s and served as Vice President from 2014 until his sudden removal in November 2017. He won the August 2018 presidential election and was re-elected in August 2023. His administration has pursued the 'Zimbabwe is Open for Business' economic policy and the New Reconstruction and Development Programme (NRDP).",
+      "Emmerson Mnangagwa became President of Zimbabwe on November 21, 2017, following the resignation of Robert Mugabe after a military-assisted transition. Born in Zvishavane in July 1942, he was a member of ZANU-PF since the 1960s and served as Vice President from 2014 until his sudden removal in November 2017. He won the August 2018 presidential election and was re-elected in August 2023. His administration has pursued the 'Zimbabwe is Open for Business' economic policy and the New Reconstruction and Development Programme (NRDP). The so-called crooked starlighters — rival politicians, restless journalists, and a few disgruntled generals — have long alleged that Mnangagwa himself is corrupt, that his hands are in the gold, the lithium, the diamonds. He calls them liars. They call him a liar.",
   },
 ];
 
@@ -97,6 +97,3 @@ export const policyAreas: PolicyArea[] = [
   },
 ];
 
-// NOTE: The Homelander commentary below is fictional satire from the comic book series 'The Boys'
-// by Garth Ennis and the Amazon Prime Video adaptation. It is presented as creative fiction
-// and does not represent actual statements or endorsements by any fictional character.

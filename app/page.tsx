@@ -1,7 +1,9 @@
+"use client";
+
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import Badge from "@/components/ui/Badge";
-
+import { motion } from "framer-motion";
 const MotionHero = dynamic(() => import("@/components/ui/MotionHero"), {
   ssr: false,
 });
@@ -58,17 +60,6 @@ function QuickLinks() {
 }
 
 function ImageShowcase() {
-  const images = [
-    { src: "https://images.unsplash.com/photo-1489792303676-aa5b2e325a33?w=400&h=300&fit=crop", alt: "Traditional Shona music and dance performance" },
-    { src: "https://images.unsplash.com/photo-1597302628824-ab00af6f3e2c?w=400&h=300&fit=crop", alt: "Zimbabwean community gathering in Harare" },
-    { src: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=400&h=300&fit=crop", alt: "Victoria Falls — one of the Seven Natural Wonders of the World" },
-    { src: "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=400&h=300&fit=crop", alt: "Rolling hills of Mashonaland Province" },
-    { src: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=300&fit=crop", alt: "Sports and recreation in Zimbabwean communities" },
-    { src: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400&h=300&fit=crop", alt: "Zimbabwean cuisine and food culture" },
-    { src: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop", alt: "Zimbabwean braai culture and community" },
-    { src: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&fit=crop", alt: "Zimbabwean library and education" },
-  ];
-
   return (
     <section className="bg-zw-warm py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,22 +68,21 @@ function ImageShowcase() {
           From the thundering waters of Victoria Falls to the rolling hills of Mashonaland,
           Zimbabwe's landscapes are as diverse and breathtaking as its people.
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-          {images.map((img, i) => (
-            <div
-              key={i}
-              className="relative overflow-hidden rounded-2xl aspect-[4/3] group"
-            >
-              <img
-                src={img.src}
-                alt={img.alt}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </div>
-          ))}
-        </div>
+        <motion.div
+          className="rounded-2xl overflow-hidden shadow-xl"
+          initial={{ opacity: 0, scale: 0.97 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
+          <motion.img
+            src="/images/landscape.jpg"
+            alt="Savannah landscape of Zimbabwe with rolling grasslands and acacia trees at sunset"
+            className="w-full h-64 sm:h-80 md:h-96 object-cover"
+            animate={{ scale: [1, 1.03], opacity: [0.9, 1] }}
+            transition={{ duration: 6, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
+          />
+        </motion.div>
       </div>
     </section>
   );

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import Card from "./Card";
 import Badge from "./Badge";
 
@@ -12,6 +11,7 @@ const highlights = [
     description:
       "Zimbabwe's most decorated Olympian with 7 medals — including gold in the 200m backstroke (Athens 2004) and 200m butterfly (Beijing 2008). A true national hero.",
     href: "/sports",
+    imageSrc: "/images/kirsty-coventry.jpg",
     imageAlt: "Kirsty Coventry swimming at the Olympic Games",
   },
   {
@@ -20,6 +20,7 @@ const highlights = [
     description:
       "Zimbabwe's tech ecosystem is booming — from Harare-based fintech startups to agricultural research at the University of Zimbabwe driving food security across Southern Africa.",
     href: "/science",
+    imageSrc: "/images/mobile-technology.jpg",
     imageAlt: "Tech entrepreneurs working in a Harare co-working space",
   },
   {
@@ -28,6 +29,7 @@ const highlights = [
     description:
       "A staple food made from ground maize, served with vegetables, meat, or relish. Sadza is more than food — it's a way of life that unites every Zimbabwean family.",
     href: "/food",
+    imageSrc: "/images/sadza.jpg",
     imageAlt: "Traditional Zimbabwean sadza and relish",
   },
   {
@@ -36,6 +38,7 @@ const highlights = [
     description:
       "Zimbabwe's acclaimed writer and filmmaker. Her novel 'Nervous Conditions' was shortlisted for the International Booker Prize 2018 — a landmark achievement for African literature.",
     href: "/people",
+    imageSrc: "/images/tsitsi-dangarembga.jpg",
     imageAlt: "Tsitsi Dangarembga at a literary event",
   },
 ];
@@ -49,7 +52,7 @@ function HighlightCard({ highlight, index }: { highlight: (typeof highlights)[nu
       transition={{ delay: index * 0.12, duration: 0.5 }}
       whileHover={{ y: -6 }}
     >
-      <Card className="h-full flex flex-col" href={highlight.href} imageSrc={`https://images.unsplash.com/photo-1489792303676-aa5b2e325a33?w=600&h=400&fit=crop`} imageAlt={highlight.imageAlt}>
+      <Card className="h-full flex flex-col" href={highlight.href} imageSrc={highlight.imageSrc} imageAlt={highlight.imageAlt}>
         <Badge color="green" className="self-start">{highlight.section}</Badge>
         <h3 className="text-lg font-outfit font-semibold mt-3 mb-2">
           {highlight.title}
@@ -57,12 +60,6 @@ function HighlightCard({ highlight, index }: { highlight: (typeof highlights)[nu
         <p className="text-sm font-inter text-zw-black/70 leading-relaxed flex-1">
           {highlight.description}
         </p>
-        <Link
-          href={highlight.href}
-          className="mt-4 text-sm font-inter font-semibold text-zw-green hover:text-zw-gold transition-colors inline-flex items-center gap-1"
-        >
-          Learn more <span aria-hidden="true">→</span>
-        </Link>
       </Card>
     </motion.div>
   );

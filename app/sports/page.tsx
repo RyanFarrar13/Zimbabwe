@@ -7,16 +7,6 @@ import Badge from "@/components/ui/Badge";
 import { athletes, stats } from "@/lib/data/sports";
 import { motion } from "framer-motion";
 
-const sportImages = [
-  "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1587280501635-c6670a9476ef?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1592656094267-73ede7b8dd58?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1638284407448-c3e5c5f1ffc6?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1452626038302-3c97cf90e4a1?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=600&h=400&fit=crop",
-  "https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&h=400&fit=crop",
-];
 
 function AthleteCard({ athlete, index }: { athlete: (typeof athletes)[number]; index: number }) {
   return (
@@ -26,7 +16,7 @@ function AthleteCard({ athlete, index }: { athlete: (typeof athletes)[number]; i
       viewport={{ once: true }}
       transition={{ delay: index * 0.1, duration: 0.5 }}
     >
-      <Card className="h-full flex flex-col" imageSrc={sportImages[index % sportImages.length]} imageAlt={athlete.imageAlt}>
+      <Card className="h-full flex flex-col" imageSrc={athlete.imageUrl} imageAlt={athlete.imageAlt}>
         <Badge color="green">{athlete.sport}</Badge>
         <h3 className="text-xl font-outfit font-semibold mt-3 mb-2">
           {athlete.name}
@@ -73,7 +63,7 @@ export default function SportsPage() {
         title="Sports Achievements"
         subtitle="Zimbabwe's greatest sporting moments — from Olympic podium finishes to cricket triumphs. Our athletes have consistently proven that Zimbabweans are unstoppable on the world stage."
         gradient="green-gold"
-        imageSrc="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&h=400&fit=crop"
+        imageSrc="/images/national-sports-stadium.jpg"
       />
 
       {/* Stats Bar */}
@@ -107,7 +97,7 @@ export default function SportsPage() {
       <section className="relative overflow-hidden bg-gradient-to-br from-zw-green via-emerald-900 to-zw-green text-white py-16 md:py-20">
         <div className="absolute inset-0 opacity-10">
           <img
-            src="https://images.unsplash.com/photo-1461896836934-bd45ba8fcf9b?w=1200&h=400&fit=crop"
+            src="/images/sports-field.jpg"
             alt="Sports stadium"
             className="w-full h-full object-cover"
           />

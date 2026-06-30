@@ -1,13 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 interface HeroSectionProps {
   title: string;
   subtitle?: string;
   gradient?: "green-gold" | "green-black" | "rainbow" | "purple";
   imageSrc?: string;
+  imageAlt?: string;
   children?: React.ReactNode;
 }
 
@@ -30,11 +30,10 @@ export default function HeroSection({
       {/* Background pattern */}
       {imageSrc && (
         <div className="absolute inset-0 opacity-10">
-          <Image
+          <img
             src={imageSrc}
             alt=""
-            fill
-            className="object-cover"
+            className="w-full h-full object-cover"
             aria-hidden="true"
           />
         </div>
