@@ -11,7 +11,6 @@ const footerLinks = [
   { href: "/food", label: "Food & Culture" },
   { href: "/people", label: "People" },
   { href: "/pride", label: "Pride" },
-  { href: "/leadership", label: "Leadership" },
 ];
 
 const socialLinks = [
@@ -131,7 +130,7 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} Zimbabwe Pride. Celebrating a nation of achievement and culture.
             </p>
             <p className="text-xs font-inter text-white/40 mt-2">
-              created by Loogi-Turbo Chud
+              created by Ryan
             </p>
           </motion.div>
         </div>

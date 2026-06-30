@@ -1,0 +1,282 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikimedia Commons" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - img [ref=e13]
+        - img "Wikimedia Commons" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikimedia Commons" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - generic [ref=e27]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "English" [ref=e32] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: English
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Donate" [ref=e39] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=commons.wikimedia.org&uselang=en
+            - listitem [ref=e40]:
+              - link "Create account" [ref=e41] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:CreateAccount&returnto=Special%3AMediaSearch&returntoquery=go%3DGo%26search%3DEmmerson%2BMnangagwa%26type%3Dimage
+            - listitem [ref=e42]:
+              - link "Log in" [ref=e43] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:UserLogin&returnto=Special%3AMediaSearch&returntoquery=go%3DGo%26search%3DEmmerson%2BMnangagwa%26type%3Dimage
+  - generic [ref=e45]:
+    - main [ref=e49]:
+      - generic [ref=e50]:
+        - heading "Search media" [level=1] [ref=e51]
+        - generic [ref=e52]:
+          - link "Switch to Special:Search" [ref=e54] [cursor=pointer]:
+            - /url: https://commons.wikimedia.org/w/index.php?title=Special%3ASearch&search=Emmerson+Mnangagwa
+          - link "Help" [ref=e56] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Help:MediaSearch
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - navigation "Namespaces"
+        - generic [ref=e60]:
+          - navigation "Views"
+          - navigation "Page tools" [ref=e61]:
+            - generic [ref=e62]:
+              - button "Tools" [ref=e63] [cursor=pointer]
+              - generic [ref=e66]: Tools
+      - navigation "Appearance" [ref=e69]:
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - generic [ref=e73]: Appearance
+            - button "hide" [ref=e74] [cursor=pointer]
+          - generic [ref=e75]:
+            - generic [ref=e76]: Text
+            - list [ref=e78]:
+              - listitem [ref=e79]:
+                - generic [ref=e80]:
+                  - generic [ref=e81]:
+                    - generic [ref=e82]:
+                      - radio "Small" [disabled] [ref=e83]
+                      - generic [ref=e86]: Small
+                    - generic [ref=e87]:
+                      - radio "Standard" [disabled] [ref=e88]
+                      - generic [ref=e91]: Standard
+                    - generic [ref=e92]:
+                      - radio "Large" [disabled] [ref=e93]
+                      - generic [ref=e96]: Large
+                  - paragraph [ref=e97]: This page always uses small font size
+          - generic [ref=e98]:
+            - generic [ref=e99]: Width
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - generic [ref=e104]:
+                  - generic [ref=e105]:
+                    - radio "Standard" [checked] [ref=e106]
+                    - generic [ref=e109]: Standard
+                  - generic [ref=e110]:
+                    - radio "Wide" [ref=e111]
+                    - generic [ref=e114]: Wide
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - text: Color
+              - generic [ref=e117]: (beta)
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]:
+                    - radio "Automatic" [ref=e124]
+                    - generic [ref=e127]: Automatic
+                  - generic [ref=e128]:
+                    - radio "Light" [checked] [ref=e129]
+                    - generic [ref=e132]: Light
+                  - generic [ref=e133]:
+                    - radio "Dark" [ref=e134]
+                    - generic [ref=e137]: Dark
+      - generic "Search media" [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: Search media
+              - textbox "Search media Search media" [ref=e145]:
+                - /placeholder: Search for images, audio, video and more
+                - text: Emmerson Mnangagwa
+            - button "Search" [ref=e147]:
+              - generic [ref=e148]: Search
+          - generic [ref=e149]:
+            - tablist [ref=e152]:
+              - tab "Images" [selected] [ref=e153]
+              - tab "Audio" [ref=e154]
+              - tab "Video" [ref=e155]
+              - tab "Other Media" [ref=e156]
+              - tab "Categories and Pages" [ref=e157]
+            - tabpanel [ref=e159]:
+              - generic [ref=e161]: 58 results
+              - generic [ref=e163]:
+                - generic [ref=e164]:
+                  - link "Emmerson Mnangagwa Official Portrait (cropped).jpg" [ref=e165] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_Official_Portrait_(cropped).jpg
+                    - img "Emmerson Mnangagwa Official Portrait (cropped).jpg"
+                  - link "Emmerson Mnangagwa (2019-01-15).jpg" [ref=e166] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_(2019-01-15).jpg
+                    - img "Emmerson Mnangagwa (2019-01-15).jpg"
+                  - link "Emmerson Mnangagwa Official Portrait.jpg" [ref=e167] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_Official_Portrait.jpg
+                    - img "Emmerson Mnangagwa Official Portrait.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15).jpg" [ref=e168] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15).jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15).jpg"
+                  - link "Emmerson Mnangagwa (cropped) (cropped).jpg" [ref=e169] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_(cropped)_(cropped).jpg
+                    - img "Emmerson Mnangagwa (cropped) (cropped).jpg"
+                  - link "Emmerson Mnangagwa 2017.png" [ref=e170] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_2017.png
+                    - img "Emmerson Mnangagwa 2017.png"
+                  - link "Emmerson Mnangagwa (cropped).jpg" [ref=e171] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_(cropped).jpg
+                    - img "Emmerson Mnangagwa (cropped).jpg"
+                  - link "Emmerson Mnangagwa (2019-01-15) (cropped).jpg" [ref=e172] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_(2019-01-15)_(cropped).jpg
+                    - img "Emmerson Mnangagwa (2019-01-15) (cropped).jpg"
+                  - link "Emmerson Mnangagwa President by Hope TV 2.jpg" [ref=e173] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_President_by_Hope_TV_2.jpg
+                    - img "Emmerson Mnangagwa President by Hope TV 2.jpg"
+                  - link "Emmerson Mnangagwa in Harare, Zimbabwe - 2018 (cropped).jpg" [ref=e174] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_in_Harare,_Zimbabwe_-_2018_(cropped).jpg
+                    - img "Emmerson Mnangagwa in Harare, Zimbabwe - 2018 (cropped).jpg"
+                  - link "Emmerson Mnangagwa.jpg" [ref=e175] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa.jpg
+                    - img "Emmerson Mnangagwa.jpg"
+                  - link "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe.JPG" [ref=e176] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:The_Vice_President,_Shri_M._Venkaiah_Naidu_calling_on_the_President_of_Zimbabwe,_Mr._Emmerson_Mnangagwa,_at_the_Office_of_the_President,_in_Harare,_Zimbabwe.JPG
+                    - img "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe.JPG"
+                  - link "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe on November 03, 2018 (1).JPG" [ref=e177] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:The_Vice_President,_Shri_M._Venkaiah_Naidu_calling_on_the_President_of_Zimbabwe,_Mr._Emmerson_Mnangagwa,_at_the_Office_of_the_President,_in_Harare,_Zimbabwe_on_November_03,_2018_(1).JPG
+                    - img "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe on November 03, 2018 (1).JPG"
+                  - link "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe (1) (cropped).JPG" [ref=e178] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:The_Vice_President,_Shri_M._Venkaiah_Naidu_calling_on_the_President_of_Zimbabwe,_Mr._Emmerson_Mnangagwa,_at_the_Office_of_the_President,_in_Harare,_Zimbabwe_(1)_(cropped).JPG
+                    - img "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe (1) (cropped).JPG"
+                  - link "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe on November 03, 2018.JPG" [ref=e179] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:The_Vice_President,_Shri_M._Venkaiah_Naidu_calling_on_the_President_of_Zimbabwe,_Mr._Emmerson_Mnangagwa,_at_the_Office_of_the_President,_in_Harare,_Zimbabwe_on_November_03,_2018.JPG
+                    - img "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe on November 03, 2018.JPG"
+                  - link "VP Emmerson Mnangagwa.png" [ref=e180] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:VP_Emmerson_Mnangagwa.png
+                    - img "VP Emmerson Mnangagwa.png"
+                  - link "Mnangagwa Speaking at Headlands.jpg" [ref=e181] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Mnangagwa_Speaking_at_Headlands.jpg
+                    - img "Mnangagwa Speaking at Headlands.jpg"
+                  - link "Emmerson Mnangagwa for vote.jpg" [ref=e182] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_for_vote.jpg
+                    - img "Emmerson Mnangagwa for vote.jpg"
+                  - link "Emmerson Mnangagwa signature.png" [ref=e183] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_signature.png
+                    - img "Emmerson Mnangagwa signature.png"
+                  - link "Emmerson Mnangagwa at the Kremlin (2019-01-15).jpg" [ref=e184] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_at_the_Kremlin_(2019-01-15).jpg
+                    - img "Emmerson Mnangagwa at the Kremlin (2019-01-15).jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 07.jpg" [ref=e185] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_07.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 07.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 03.jpg" [ref=e186] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_03.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 03.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 05.jpg" [ref=e187] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_05.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 05.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 04.jpg" [ref=e188] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_04.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 04.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 02.jpg" [ref=e189] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_02.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 02.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 08.jpg" [ref=e190] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_08.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 08.jpg"
+                  - link "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 06.jpg" [ref=e191] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Vladimir_Putin_and_Emmerson_Mnangagwa_(2019-01-15)_06.jpg
+                    - img "Vladimir Putin and Emmerson Mnangagwa (2019-01-15) 06.jpg"
+                  - link "Emmerson Mnangagwa at US-Africa Business Summit, 2023.jpg" [ref=e192] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_at_US-Africa_Business_Summit,_2023.jpg
+                    - img "Emmerson Mnangagwa at US-Africa Business Summit, 2023.jpg"
+                  - link "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe (1).JPG" [ref=e193] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:The_Vice_President,_Shri_M._Venkaiah_Naidu_calling_on_the_President_of_Zimbabwe,_Mr._Emmerson_Mnangagwa,_at_the_Office_of_the_President,_in_Harare,_Zimbabwe_(1).JPG
+                    - img "The Vice President, Shri M. Venkaiah Naidu calling on the President of Zimbabwe, Mr. Emmerson Mnangagwa, at the Office of the President, in Harare, Zimbabwe (1).JPG"
+                  - link "Duma Boko and Emmerson Mnangagwa on December 13, 2024.jpg" [ref=e194] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Duma_Boko_and_Emmerson_Mnangagwa_on_December_13,_2024.jpg
+                    - img "Duma Boko and Emmerson Mnangagwa on December 13, 2024.jpg"
+                  - link "Emmerson Mnangagwa at US-Africa Business Summit, 2023 (3x4).jpg" [ref=e195] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Emmerson_Mnangagwa_at_US-Africa_Business_Summit,_2023_(3x4).jpg
+                    - img "Emmerson Mnangagwa at US-Africa Business Summit, 2023 (3x4).jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 02.jpg" [ref=e196] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_02.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 02.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 05.jpg" [ref=e197] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_05.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 05.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 03.jpg" [ref=e198] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_03.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 03.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 04.jpg" [ref=e199] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_04.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 04.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 06.jpg" [ref=e200] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_06.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 06.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 08.jpg" [ref=e201] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_08.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 08.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 10.jpg" [ref=e202] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_10.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 10.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 01.jpg" [ref=e203] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_01.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 01.jpg"
+                  - link "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 09.jpg" [ref=e204] [cursor=pointer]:
+                    - /url: https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_met_with_Zimbabwe_President_Emmerson_Mnangagwa_09.jpg
+                    - img "Ilham Aliyev met with Zimbabwe President Emmerson Mnangagwa 09.jpg"
+                - button "Load more" [ref=e206]
+                - button "Load more" [ref=e209] [cursor=pointer]
+    - contentinfo [ref=e211]:
+      - list
+      - list:
+        - listitem [ref=e212]:
+          - link "Privacy policy" [ref=e213] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e214]:
+          - link "About Wikimedia Commons" [ref=e215] [cursor=pointer]:
+            - /url: /wiki/Commons:Welcome
+        - listitem [ref=e216]:
+          - link "Disclaimers" [ref=e217] [cursor=pointer]:
+            - /url: /wiki/Commons:General_disclaimer
+        - listitem [ref=e218]:
+          - link "Code of Conduct" [ref=e219] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e220]:
+          - link "Developers" [ref=e221] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e222]:
+          - link "Statistics" [ref=e223] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/commons.wikimedia.org
+        - listitem [ref=e224]:
+          - link "Cookie statement" [ref=e225] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e226]:
+          - link "Mobile view" [ref=e227] [cursor=pointer]:
+            - /url: //commons.wikimedia.org/w/index.php?title=Special:MediaSearch&go=Go&search=Emmerson+Mnangagwa&type=image&mobileaction=toggle_view_mobile
+      - list [ref=e228]:
+        - listitem [ref=e229]:
+          - link "Wikimedia Foundation" [ref=e230] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e232]
+        - listitem [ref=e233]:
+          - link "Powered by MediaWiki" [ref=e234] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e236]
+  - generic [ref=e237]:
+    - list

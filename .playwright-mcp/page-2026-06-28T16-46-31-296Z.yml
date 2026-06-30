@@ -1,0 +1,178 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e9]:
+      - link "Zimbabwe Pride" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e11]: Zimbabwe Pride
+      - generic [ref=e12]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e16] [cursor=pointer]:
+          - /url: /sports
+        - link "Science" [ref=e18] [cursor=pointer]:
+          - /url: /science
+        - link "Progress" [ref=e20] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e22] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e24] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e26] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e28] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e30] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img [ref=e34]
+      - generic [ref=e43]:
+        - heading "Science & Innovation" [level=1] [ref=e44]
+        - paragraph [ref=e45]: Zimbabwe's brightest minds are driving progress in medicine, technology, agriculture, and beyond. From university research labs to tech startups, innovation is at the heart of Zimbabwe's future.
+    - generic [ref=e52]:
+      - heading "Innovators & Researchers" [level=2] [ref=e53]
+      - paragraph [ref=e54]: Zimbabwean scientists, inventors, and academics who are making their mark on the world. Every breakthrough starts with curiosity and determination.
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - img "Women scientists and engineers at a Zimbabwean research laboratory" [ref=e59]
+          - generic [ref=e61]:
+            - generic [ref=e62]: Science & Technology
+            - generic [ref=e63]: University of Zimbabwe / NUST
+            - heading "Zimbabwean Women in STEM" [level=3] [ref=e64]
+            - paragraph [ref=e65]: Zimbabwe has one of Africa's highest proportions of women in science and technology fields. Women make up over 50% of university STEM graduates at the University of Zimbabwe and NUST. Pioneering women researchers lead breakthroughs in medicine, engineering, agriculture, and data science across the continent.
+        - generic [ref=e67]:
+          - img "Medical researchers conducting clinical trials in a laboratory setting" [ref=e69]
+          - generic [ref=e71]:
+            - generic [ref=e72]: Medicine
+            - generic [ref=e73]: Gilead Sciences / Zimbabwe Clinical Trials
+            - heading "Lenacapavir HIV Breakthrough" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Lenacapavir, named "Breakthrough of the Year" by Science magazine in 2024, is a revolutionary twice-yearly injectable HIV prevention and treatment drug. Zimbabwe hosted pivotal clinical trials that demonstrated 99–100% efficacy, and by late 2025 Gilead began delivering the drug to sub-Saharan African countries including Zimbabwe.
+        - generic [ref=e77]:
+          - img "Engineering students working on innovative projects at a university laboratory" [ref=e79]
+          - generic [ref=e81]:
+            - generic [ref=e82]: Engineering & Technology
+            - generic [ref=e83]: National University of Science and Technology
+            - heading "NUST Innovation Lab" [level=3] [ref=e84]
+            - paragraph [ref=e85]: The National University of Science and Technology in Bulawayo is at the forefront of Zimbabwean innovation. In 2026, a NUST electronics engineering student developed an innovative granite-based battery with a potential 30-year lifespan. NUST students also won top honors at the Global Wetskills Water Challenge 2026.
+        - generic [ref=e87]:
+          - img "Tech entrepreneurs collaborating in a modern co-working space" [ref=e89]
+          - generic [ref=e91]:
+            - generic [ref=e92]: Technology & Fintech
+            - generic [ref=e93]: Harare Innovation Hub
+            - heading "Zimbabwe Tech Startup Ecosystem" [level=3] [ref=e94]
+            - paragraph [ref=e95]: Harare and Bulawayo are nurturing a vibrant tech startup scene. Platforms like Loko — founded by Silicon Valley returnees — build financial technology for African markets, while NeedEnergy raised funding from Techstars and Startupbootcamp to solve energy access challenges across the continent.
+    - generic [ref=e96]:
+      - img "Great Zimbabwe ruins — symbol of Zimbabwe's ancient innovation and engineering prowess" [ref=e98]
+      - generic [ref=e99]:
+        - heading "Innovation is Zimbabwe's Future" [level=2] [ref=e100]
+        - paragraph [ref=e101]: From the lecture halls of the University of Zimbabwe to tech hubs in Harare and Bulawayo, Zimbabwe's next generation of innovators is rising — building solutions for Africa and the world.
+    - generic [ref=e103]:
+      - heading "Science & Discovery" [level=2] [ref=e104]
+      - paragraph [ref=e105]: From the Great Dyke's mineral wealth to Zimbabwe's role in global astronomy, discovery is woven into the country's landscape and research.
+      - generic [ref=e106]:
+        - generic [ref=e109]:
+          - img "Aerial view of Zimbabwe's Great Dyke geological formation from space, showing the distinctive linear mineral-rich ridge" [ref=e111]
+          - generic [ref=e112]:
+            - 'heading "World-class mineral wealth: the Great Dyke" [level=3] [ref=e113]'
+            - paragraph [ref=e114]: Zimbabwe's Great Dyke is a 550-km-long linear geological formation that hosts the world's second-largest known reserve of platinum-group elements (PGEs), along with significant chromium, nickel, gold, and silver deposits. It is one of the most mineral-rich geological structures on Earth.
+        - generic [ref=e117]:
+          - img "Chromite ore sample from Zimbabwe's Great Dyke — one of the world's richest chromium deposits" [ref=e119]
+          - generic [ref=e120]:
+            - heading "Mining drives the economy" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Zimbabwe extracts over 40 minerals, and its mining sector contributes about 14.5% to GDP while accounting for roughly 75% of national exports. Mineral exports reached $5.9 billion in 2024, up from $5.4 billion in 2023.
+        - generic [ref=e125]:
+          - img "Tobacco leaves — Zimbabwe's Tobacco Research Board develops high-yielding, disease-resistant cultivars through plant breeding research" [ref=e127]
+          - generic [ref=e128]:
+            - heading "Tobacco research and agricultural innovation" [level=3] [ref=e129]
+            - paragraph [ref=e130]: Zimbabwe's Tobacco Research Board develops high-yielding, disease-resistant tobacco cultivars through plant breeding research. Contract farming and scientific cultivation methods helped production grow from 48.8 million kg in 2008 to over 259 million kg by 2018.
+        - generic [ref=e133]:
+          - img "Solar panel installation in Zimbabwe — Africa Creates project, Wiki Loves Africa 2024" [ref=e135]
+          - generic [ref=e136]:
+            - heading "Solar energy potential and adoption" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Zimbabwe has immense solar energy potential. Licensed independent power producer projects include 17 solar installations with a combined capacity of 661 MW. The country's renewable energy share was estimated at over 88% in 2021, driven largely by hydropower on the Zambezi River.
+        - generic [ref=e141]:
+          - img "Satellite image of Zimbabwe showing the country's landscape and geographical features including Victoria Falls" [ref=e143]
+          - generic [ref=e144]:
+            - 'heading "Victoria Falls: a geological marvel" [level=3] [ref=e145]'
+            - paragraph [ref=e146]: Victoria Falls on the Zambezi River is the world's largest waterfall by volume, with an average flow rate of 1,088 cubic metres per second. The basalt bedrock forming the falls is approximately 180 million years old, and the site was designated a UNESCO World Heritage Site in 1989.
+        - generic [ref=e149]:
+          - img "Radio telescope array in a desert landscape observing deep space" [ref=e151]
+          - generic [ref=e152]:
+            - heading "Zimbabwe in the global SKA collaboration" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Zimbabwe participates in the Square Kilometre Array (SKA) project — the world's largest radio telescope, being built across South Africa and Australia with a collecting area of one square kilometre. Nearly 400 grants have been awarded since 2005 for astronomy and engineering studies, driving human capital development across Africa.
+    - generic [ref=e156]:
+      - heading "Research Institutions" [level=2] [ref=e157]
+      - paragraph [ref=e158]: The universities and research centers that nurture Zimbabwe's scientific talent.
+      - generic [ref=e159]:
+        - generic [ref=e162]:
+          - generic [ref=e164]: 🏛️
+          - generic [ref=e165]:
+            - heading "University of Zimbabwe" [level=3] [ref=e166]
+            - paragraph [ref=e167]: Zimbabwe's oldest and largest university, founded in 1952. A leading research institution in Southern Africa with strengths in agriculture, medicine, engineering, and natural sciences.
+        - generic [ref=e170]:
+          - generic [ref=e172]: 🏛️
+          - generic [ref=e173]:
+            - heading "National University of Science and Technology (NUST)" [level=3] [ref=e174]
+            - paragraph [ref=e175]: Located in Bulawayo, NUST is Zimbabwe's premier science and technology university. Known for breakthrough innovations — from granite-based batteries to water-skill championships — NUST drives applied research across engineering, mining, and clean energy.
+        - generic [ref=e178]:
+          - generic [ref=e180]: 🏛️
+          - generic [ref=e181]:
+            - heading "SIRDC — Scientific & Industrial Research and Development Centre" [level=3] [ref=e182]
+            - paragraph [ref=e183]: Established by an Act of Parliament in 1993, SIRDC is Zimbabwe's premier applied research organization with twelve specialized institutes covering biotechnology, remote sensing, energy technology, materials science, and food technology. Over 200 researchers develop practical solutions for mining, agriculture, manufacturing, and the environment.
+    - generic [ref=e185]:
+      - heading "Innovation is Zimbabwe's Future" [level=2] [ref=e186]
+      - paragraph [ref=e187]: From the lecture halls of the University of Zimbabwe to tech hubs in Harare and Bulawayo, Zimbabwe's next generation of innovators is rising.
+      - link "Back to Home" [ref=e188] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e189]:
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - link "Zimbabwe Pride" [ref=e199] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e200]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e201]:
+          - heading "Explore" [level=3] [ref=e202]
+          - list [ref=e203]:
+            - listitem [ref=e204]:
+              - link "Sports" [ref=e206] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e207]:
+              - link "Science & Innovation" [ref=e209] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e210]:
+              - link "National Progress" [ref=e212] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e213]:
+              - link "News" [ref=e215] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e216]:
+              - link "Food & Culture" [ref=e218] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e219]:
+              - link "People" [ref=e221] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e222]:
+              - link "Pride" [ref=e224] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e225]:
+              - link "Leadership" [ref=e227] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e228]:
+          - heading "Follow Us" [level=3] [ref=e229]
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - link "Twitter" [ref=e233] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e234]:
+              - link "Facebook" [ref=e236] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e237]:
+              - link "Instagram" [ref=e239] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e240]:
+              - link "YouTube" [ref=e242] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e243]:
+        - paragraph [ref=e244]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+        - paragraph [ref=e245]: created by Loogi-Turbo Chud

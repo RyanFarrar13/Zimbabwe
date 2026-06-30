@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "imageUrl": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=1200&h=600&fit=crop",
+    "imageAlt": "Scientists working in a modern research laboratory, representing Zimbabwe's growing science and innovation sector"
+  },
+  "entries": [
+    {
+      "title": "Lenacapavir: A Zimbabwe-Tested HIV Breakthrough",
+      "content": "Lenacapavir, named \"Breakthrough of the Year\" by Science magazine in 2024, is a revolutionary twice-yearly injectable HIV prevention and treatment drug. It was developed by Gilead Sciences after nearly 20 years of research, and Zimbabwe hosted pivotal clinical trials that demonstrated 99-100% efficacy. By late 2025, Gilead began delivering the drug to sub-Saharan African countries including Zimbabwe, offering a transformative option for HIV prevention in the region hardest hit by the epidemic.",
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&h=400&fit=crop",
+      "imageAlt": "Medical researchers conducting clinical trials in a laboratory setting"
+    },
+    {
+      "title": "NUST: Zimbabwe's Innovation Powerhouse",
+      "content": "The National University of Science and Technology in Bulawayo is at the forefront of Zimbabwean innovation. In 2026, a NUST electronics engineering student developed an innovative granite-based battery with a potential 30-year lifespan, showcasing the kind of resourceful engineering Zimbabwe is known for. NUST students also won top honors at the Global Wetskills Water Challenge 2026 and were recognized at the Presidential Innovation Fair for projects spanning mining reagents to clean energy.",
+      "image": "https://images.unsplash.com/photo-1581093458791-9d42e3c24e5a?w=600&h=400&fit=crop",
+      "imageAlt": "Engineering students working on innovative projects at a university laboratory"
+    },
+    {
+      "title": "SIRDC: Zimbabwe's National Research Engine",
+      "content": "The Scientific and Industrial Research and Development Centre (SIRDC), established by an Act of Parliament in 1993, is Zimbabwe's premier applied research organization. With twelve specialized institutes covering biotechnology, remote sensing, energy technology, materials science, and food technology, SIRDC employs over 200 researchers who develop practical technological solutions for Zimbabwe's mining, agriculture, manufacturing, and environmental sectors. Its outputs are commercialized through Sirtech Investments.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop",
+      "imageAlt": "Research scientists collaborating in a multidisciplinary laboratory"
+    },
+    {
+      "title": "Zimbabwe's Growing Tech Startup Ecosystem",
+      "content": "Harare and Bulawayo are nurturing a vibrant tech startup scene. Zimbabwean startups like NeedEnergy (which raised funding from Techstars and Startupbootcamp) are solving energy access challenges, while platforms like Loko — founded by Silicon Valley returnees — are building financial technology for African markets. The broader Silicon Savannah network connects Zimbabwean entrepreneurs with investors and mentors across the continent, helping local startups scale regionally.",
+      "image": "https://images.unsplash.com/photo-1509361428686-5fc8e17a60c9?w=600&h=400&fit=crop",
+      "imageAlt": "Tech entrepreneurs collaborating in a modern co-working space"
+    },
+    {
+      "title": "Agricultural Science and the Tobacco Research Board",
+      "content": "Zimbabwe's Tobacco Research Board conducts cutting-edge plant breeding research to develop high-yielding, disease-resistant tobacco cultivars. Through scientific cultivation methods and contract farming programs, production surged from 48.8 million kg in 2008 to over 259 million kg by 2018, making Zimbabwe one of Africa's top tobacco producers. Beyond tobacco, the University of Zimbabwe leads drought-resistant crop research in cassava and millet, supporting food security across Southern Africa.",
+      "image": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=600&h=400&fit=crop",
+      "imageAlt": "Agricultural researchers examining crops in a field trial"
+    },
+    {
+      "title": "Zimbabwe and the Square Kilometre Array",
+      "content": "Zimbabwe participates in the Square Kilometre Array (SKA) project — the world's largest radio telescope, being built across South Africa and Australia with a collecting area of one square kilometre. Zimbabwean scientists contribute to this international collaboration that will peer back to the epoch before the first stars formed, test Einstein's theory of gravity, and search for Earth-like planets. The SKA also drives human capital development across Africa, with nearly 400 grants awarded for astronomy and engineering studies since 2005.",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=600&h=400&fit=crop",
+      "imageAlt": "Radio telescope array in a desert landscape observing deep space"
+    }
+  ]
+}

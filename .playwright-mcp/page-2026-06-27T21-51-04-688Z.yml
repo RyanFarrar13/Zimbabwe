@@ -1,0 +1,105 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikimedia Commons" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - img [ref=e13]
+        - img "Wikimedia Commons" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikimedia Commons" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - generic [ref=e27]:
+          - list [ref=e30]:
+            - listitem [ref=e31]:
+              - link "English" [ref=e32] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e34]: English
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Donate" [ref=e39] [cursor=pointer]:
+                - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=commons.wikimedia.org&uselang=en
+            - listitem [ref=e40]:
+              - link "Create account" [ref=e41] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:CreateAccount&returnto=File%3AEmmerson+Mnangagwa+official+portrait.jpg
+            - listitem [ref=e42]:
+              - link "Log in" [ref=e43] [cursor=pointer]:
+                - /url: /w/index.php?title=Special:UserLogin&returnto=File%3AEmmerson+Mnangagwa+official+portrait.jpg
+  - generic [ref=e45]:
+    - main [ref=e49]:
+      - heading "File:Emmerson Mnangagwa official portrait.jpg" [level=1] [ref=e51]
+      - generic [ref=e53]:
+        - navigation "Namespaces" [ref=e55]:
+          - list [ref=e58]:
+            - listitem [ref=e59]:
+              - link "File" [ref=e60] [cursor=pointer]:
+                - /url: /w/index.php?title=File:Emmerson_Mnangagwa_official_portrait.jpg&action=edit&redlink=1
+                - generic [ref=e61]: File
+            - listitem [ref=e62]:
+              - link "Discussion" [ref=e63] [cursor=pointer]:
+                - /url: /w/index.php?title=File_talk:Emmerson_Mnangagwa_official_portrait.jpg&action=edit&redlink=1
+                - generic [ref=e64]: Discussion
+        - generic [ref=e65]:
+          - navigation "Views" [ref=e66]:
+            - list [ref=e69]:
+              - listitem [ref=e70]:
+                - link "Create" [ref=e71] [cursor=pointer]:
+                  - /url: /w/index.php?title=File:Emmerson_Mnangagwa_official_portrait.jpg&action=edit
+                  - generic [ref=e72]: Create
+          - navigation "Page tools" [ref=e73]:
+            - generic [ref=e74]:
+              - button "Tools" [ref=e75] [cursor=pointer]
+              - generic [ref=e78]: Tools
+      - navigation "Appearance" [ref=e81]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Appearance
+          - button "hide" [ref=e86] [cursor=pointer]
+      - generic "File:Emmerson Mnangagwa official portrait.jpg" [ref=e87]:
+        - generic [ref=e88]:
+          - paragraph [ref=e90]: No file by this name exists.
+          - heading "File usage on Commons" [level=2] [ref=e91]
+          - paragraph [ref=e93]: There are no pages that use this file.
+    - contentinfo [ref=e95]:
+      - list
+      - list:
+        - listitem [ref=e96]:
+          - link "Privacy policy" [ref=e97] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e98]:
+          - link "About Wikimedia Commons" [ref=e99] [cursor=pointer]:
+            - /url: /wiki/Commons:Welcome
+        - listitem [ref=e100]:
+          - link "Disclaimers" [ref=e101] [cursor=pointer]:
+            - /url: /wiki/Commons:General_disclaimer
+        - listitem [ref=e102]:
+          - link "Code of Conduct" [ref=e103] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e104]:
+          - link "Developers" [ref=e105] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e106]:
+          - link "Statistics" [ref=e107] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/commons.wikimedia.org
+        - listitem [ref=e108]:
+          - link "Cookie statement" [ref=e109] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e110]:
+          - link "Mobile view" [ref=e111] [cursor=pointer]:
+            - /url: //commons.wikimedia.org/w/index.php?title=File:Emmerson_Mnangagwa_official_portrait.jpg&mobileaction=toggle_view_mobile
+      - list [ref=e112]:
+        - listitem [ref=e113]:
+          - link "Wikimedia Foundation" [ref=e114] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e116]
+        - listitem [ref=e117]:
+          - link "Powered by MediaWiki" [ref=e118] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e120]

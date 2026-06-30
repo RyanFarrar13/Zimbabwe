@@ -11,7 +11,6 @@ const allLinks = [
   { href: "/food", title: "Food & Culture", emoji: "🍲" },
   { href: "/people", title: "People", emoji: "🌟" },
   { href: "/pride", title: "Pride", emoji: "🏳️‍🌈" },
-  { href: "/leadership", title: "Leadership", emoji: "🏛️" },
 ];
 
 export default function MotionCTA() {

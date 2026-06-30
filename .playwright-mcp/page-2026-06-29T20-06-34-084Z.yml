@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e9]:
+      - link "Zimbabwe Pride" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e11]: Zimbabwe Pride
+      - generic [ref=e12]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e16] [cursor=pointer]:
+          - /url: /sports
+        - link "Science" [ref=e18] [cursor=pointer]:
+          - /url: /science
+        - link "Progress" [ref=e20] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e22] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e24] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e26] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e28] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e30] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img [ref=e34]
+      - generic [ref=e43]:
+        - heading "Food & Culture" [level=1] [ref=e44]
+        - paragraph [ref=e45]: Zimbabwe's cuisine is a celebration of flavor, tradition, and community. From the staple dish sadza to the beloved braai culture, every meal tells a story of heritage and togetherness.
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - generic [ref=e56]: 🍚
+        - heading "Staple Dishes" [level=3] [ref=e57]
+      - generic [ref=e59]:
+        - generic [ref=e60]: 🔥
+        - heading "Braai Culture" [level=3] [ref=e61]
+      - generic [ref=e63]:
+        - generic [ref=e64]: 🥤
+        - heading "Traditional Drinks" [level=3] [ref=e65]
+      - generic [ref=e67]:
+        - generic [ref=e68]: 🎉
+        - heading "Festive Foods" [level=3] [ref=e69]
+    - generic [ref=e71]:
+      - heading "Traditional Dishes" [level=2] [ref=e72]
+      - paragraph [ref=e73]: Zimbabwe's food culture is rich and diverse. Each dish carries centuries of tradition, connecting families across generations and regions.
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - img "A plate of sadza served with meat and vegetables, Zimbabwe's staple dish" [ref=e78]
+          - generic [ref=e80]:
+            - generic [ref=e81]: Nationwide
+            - heading "Sadza" [level=3] [ref=e82]
+            - paragraph [ref=e83]: The staple food of Zimbabwe — a thick porridge made from ground maize (corn). Served with relish (vinaka), meat, vegetables, or dairy.
+            - paragraph [ref=e85]: "Cultural significance: Sadza is the heart of every Zimbabwean meal. It represents unity, family, and cultural identity."
+        - generic [ref=e87]:
+          - img "Nyama — Zimbabwean braai with grilled meat seasoned with peri-peri spices" [ref=e89]
+          - generic [ref=e91]:
+            - generic [ref=e92]: Nationwide
+            - heading "Nyama (Grilled Meat)" [level=3] [ref=e93]
+            - paragraph [ref=e94]: Zimbabwean braai culture — grilled beef, goat, chicken, or sausage. Often seasoned with peri-peri or traditional spices.
+            - paragraph [ref=e96]: "Cultural significance: Braai is a social institution in Zimbabwe. Weekend gatherings revolve around the fire and the grill."
+        - generic [ref=e98]:
+          - img "Matemba — small silver fish from Lake Kariba, fried to golden perfection" [ref=e100]
+          - generic [ref=e102]:
+            - generic [ref=e103]: Lake Kariba region
+            - heading "Matemba (Small Fish)" [level=3] [ref=e104]
+            - paragraph [ref=e105]: Tiny silver fish from Lake Kariba, usually fried or cooked in tomato sauce. A beloved delicacy.
+            - paragraph [ref=e107]: "Cultural significance: Matemba season is a celebration — families gather to enjoy these small but mighty fish."
+        - generic [ref=e109]:
+          - img "Mopane worms (Mhunga) — dried caterpillars rehydrated and cooked with onions, tomatoes, and chili" [ref=e111]
+          - generic [ref=e113]:
+            - generic [ref=e114]: Matabeleland, Lowveld
+            - heading "Mopane Worms (Mhunga)" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Dried mopane caterpillars — a protein-rich delicacy. Usually rehydrated and cooked with onions, tomatoes, and chili.
+            - paragraph [ref=e118]: "Cultural significance: Mopane worms are foraged during the rainy season (October–December) and dried for year-round use. A cherished snack."
+        - generic [ref=e120]:
+          - img "Maheu — traditional fermented maize drink served with pap (maize porridge)" [ref=e122]
+          - generic [ref=e124]:
+            - generic [ref=e125]: Nationwide
+            - heading "Maheu" [level=3] [ref=e126]
+            - paragraph [ref=e127]: A traditional fermented maize drink, thick and slightly sour. A refreshing non-alcoholic beverage.
+            - paragraph [ref=e129]: "Cultural significance: Maheu is a traditional drink often made at home, especially in rural areas. It's nutritious and beloved by all ages."
+        - generic [ref=e131]:
+          - img "Muriwo — traditional Zimbabwean leafy greens cooked into a nutritious stew" [ref=e133]
+          - generic [ref=e135]:
+            - generic [ref=e136]: Nationwide
+            - heading "Muriwo (Wild Greens)" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Traditional leafy greens — including pumpkin leaves, sweet potato vines, and wild foraged varieties. Cooked into a nutritious stew.
+            - paragraph [ref=e140]: "Cultural significance: Muriwo connects Zimbabweans to their land and ancestral cooking traditions."
+        - generic [ref=e142]:
+          - img "Groundnut Stew (Nutsvi) — rich peanut paste stew served over sadza" [ref=e144]
+          - generic [ref=e146]:
+            - generic [ref=e147]: Nationwide
+            - heading "Groundnut Stew (Nutsvi)" [level=3] [ref=e148]
+            - paragraph [ref=e149]: A rich stew made with groundnut (peanut) paste, tomatoes, and meat. Served over sadza.
+            - paragraph [ref=e151]: "Cultural significance: Groundnut stew is a comfort food that brings families together at the dinner table."
+    - generic [ref=e153]:
+      - heading "Braai Culture — More Than Just Grilling" [level=2] [ref=e154]
+      - paragraph [ref=e155]: In Zimbabwe, the braai is a social institution. It's where families gather on weekends, friends share stories, and the aroma of grilled meat brings everyone together. From beef to boerewors, from peri-peri chicken to sausage — the braai is Zimbabwe's unofficial national pastime.
+    - generic [ref=e157]:
+      - heading "Taste of Zimbabwe" [level=2] [ref=e158]
+      - paragraph [ref=e159]: Zimbabwe's food is more than sustenance — it's identity, community, and love on a plate. Every dish carries the warmth of Zimbabwean hospitality.
+      - link "Back to Home" [ref=e160] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e161]:
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - generic [ref=e170]:
+          - link "Zimbabwe Pride" [ref=e171] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e172]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e173]:
+          - heading "Explore" [level=3] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "Sports" [ref=e178] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e179]:
+              - link "Science & Innovation" [ref=e181] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e182]:
+              - link "National Progress" [ref=e184] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e185]:
+              - link "News" [ref=e187] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e188]:
+              - link "Food & Culture" [ref=e190] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e191]:
+              - link "People" [ref=e193] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e194]:
+              - link "Pride" [ref=e196] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e197]:
+              - link "Leadership" [ref=e199] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e200]:
+          - heading "Follow Us" [level=3] [ref=e201]
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - link "Twitter" [ref=e205] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e206]:
+              - link "Facebook" [ref=e208] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e209]:
+              - link "Instagram" [ref=e211] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e212]:
+              - link "YouTube" [ref=e214] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e215]:
+        - paragraph [ref=e216]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+        - paragraph [ref=e217]: created by Loogi-Turbo Chud

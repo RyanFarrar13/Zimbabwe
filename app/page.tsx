@@ -24,7 +24,6 @@ const quickLinks = [
   { href: "/food", title: "Food & Culture", description: "Taste of Zimbabwe", emoji: "🍲" },
   { href: "/people", title: "People", description: "Notable Zimbabweans", emoji: "🌟" },
   { href: "/pride", title: "Pride", description: "Community & identity", emoji: "🏳️‍🌈" },
-  { href: "/leadership", title: "Leadership", description: "Vision & direction", emoji: "🏛️" },
 ];
 
 function QuickLinks() {

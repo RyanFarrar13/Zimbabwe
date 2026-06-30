@@ -1,0 +1,58 @@
+[
+  {
+    "src": "http://localhost:3000/images/sadza.jpg",
+    "naturalWidth": 2268,
+    "naturalHeight": 4032,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/sadza.jpg",
+    "naturalWidth": 2268,
+    "naturalHeight": 4032,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/nyama-yekosa.jpg",
+    "naturalWidth": 600,
+    "naturalHeight": 800,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/matemba-fish.jpg",
+    "naturalWidth": 600,
+    "naturalHeight": 402,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/mopane-worms.jpg",
+    "naturalWidth": 600,
+    "naturalHeight": 400,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/maheu-traditional.jpg",
+    "naturalWidth": 578,
+    "naturalHeight": 325,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/muriwo-african-food.jpg",
+    "naturalWidth": 3456,
+    "naturalHeight": 3980,
+    "complete": true,
+    "isNaturalWidthZero": false
+  },
+  {
+    "src": "http://localhost:3000/images/groundnut-stew.webp",
+    "naturalWidth": 2500,
+    "naturalHeight": 1875,
+    "complete": true,
+    "isNaturalWidthZero": false
+  }
+]

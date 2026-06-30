@@ -1,0 +1,43 @@
+{
+  "rootCause": "The next.config.js file uses ES module syntax (export default) but has a .js extension. Next.js 14.x expects CommonJS for .js files, so the config likely fails to load silently. This means images.remotePatterns (which whitelists upload.wikimedia.org and images.unsplash.com) is never applied. The next/image component then rejects all external image URLs with 'unconfigured host' errors, causing broken images across every page that uses next/image with remote URLs.",
+  "evidence": [
+    "next.config.js line 12 uses 'export default' (ESM syntax) while the file is named next.config.js (not .mjs). Next.js 14.x reads .js config files as CommonJS, so 'export default' is ignored.",
+    "All image URLs in the codebase are external (Wikimedia Commons or Unsplash). No local images exist except public/assets/homelander-good.png.",
+    "next/image component requires remotePatterns to be configured for external domains. Without the config loading, every next/Image with a remote URL fails.",
+    "The Card component (components/ui/Card.tsx, line 40) passes imageSrc directly to next/image with fill. HeroSection (components/ui/HeroSection.tsx, line 35) does the same.",
+    "Pages affected: sports/page.tsx (HeroSection + Card with athlete images), science/page.tsx (HeroSection + Card + direct Image usage), food/page.tsx (HeroSection + Card with dish images), app/page.tsx (ImageShowcase uses motion.img which bypasses next/image but may still fail if external URLs are blocked)."
+  ],
+  "filesThatNeedChanges": [
+    {
+      "file": "next.config.js",
+      "currentLine12": "export default nextConfig;",
+      "fixOptionA": "Rename the file to next.config.mjs (simplest fix, preserves ESM syntax)",
+      "fixOptionB": "Change line 12 to 'module.exports = nextConfig;' (keeps .js extension)"
+    }
+  ],
+  "affectedComponents": [
+    {
+      "component": "components/ui/Card.tsx",
+      "line": 40,
+      "usage": "<Image src={imageSrc} fill ...>",
+      "pagesUsingIt": ["app/sports/page.tsx", "app/science/page.tsx", "app/food/page.tsx"]
+    },
+    {
+      "component": "components/ui/HeroSection.tsx",
+      "line": 35,
+      "usage": "<Image src={imageSrc} fill ...>",
+      "pagesUsingIt": ["app/sports/page.tsx", "app/science/page.tsx", "app/food/page.tsx"]
+    },
+    {
+      "component": "app/science/page.tsx",
+      "line": 128,
+      "usage": "<Image src={fact.imageUrl} fill ...>",
+      "pagesUsingIt": ["app/science/page.tsx"]
+    }
+  ],
+  "imageUrlsPattern": {
+    "wikimediaCommons": "https://upload.wikimedia.org/wikipedia/commons/thumb/... (used in sports, science, food data files)",
+    "unsplash": "https://images.unsplash.com/... (used in MotionHero, MotionHighlights, science page)",
+    "local": "/assets/homelander-good.png (used in app/leadership/page.tsx line 274, this one works because it is a public folder path)"
+  }
+}

@@ -1,0 +1,169 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e9]:
+      - link "Zimbabwe Pride" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e11]: Zimbabwe Pride
+      - generic [ref=e12]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e16] [cursor=pointer]:
+          - /url: /sports
+        - link "Science" [ref=e18] [cursor=pointer]:
+          - /url: /science
+        - link "Progress" [ref=e20] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e22] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e24] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e26] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e28] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e30] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img [ref=e34]
+      - generic [ref=e43]:
+        - heading "Sports Achievements" [level=1] [ref=e44]
+        - paragraph [ref=e45]: Zimbabwe's greatest sporting moments — from Olympic podium finishes to cricket triumphs. Our athletes have consistently proven that Zimbabweans are unstoppable on the world stage.
+    - generic [ref=e53]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: 🏅
+        - generic [ref=e58]: "7"
+        - heading "Olympic Medals" [level=3] [ref=e59]
+        - paragraph [ref=e60]: Total Olympic medals won by Zimbabwe across all Summer Games
+      - generic [ref=e63]:
+        - generic [ref=e64]: 🏅
+        - generic [ref=e65]: 6+
+        - heading "Commonwealth Golds" [level=3] [ref=e66]
+        - paragraph [ref=e67]: Gold medals at Commonwealth Games across multiple sports
+      - generic [ref=e70]:
+        - generic [ref=e71]: 🏅
+        - generic [ref=e72]: "6"
+        - heading "Rugby World Cups" [level=3] [ref=e73]
+        - paragraph [ref=e74]: Appearances in the Rugby World Cup (1987, 1991, 1995, 1999, 2003, 2015)
+      - generic [ref=e77]:
+        - generic [ref=e78]: 🏅
+        - generic [ref=e79]: "2003"
+        - heading "ICC Full Member" [level=3] [ref=e80]
+        - paragraph [ref=e81]: Year Zimbabwe gained Full Member status in International Cricket
+    - generic [ref=e83]:
+      - heading "Legendary Athletes" [level=2] [ref=e84]
+      - paragraph [ref=e85]: Meet the Zimbabweans who have brought pride to the nation through extraordinary sporting achievements. Every medal tells a story of dedication, sacrifice, and triumph.
+      - generic [ref=e86]:
+        - generic [ref=e88]:
+          - img "Kirsty Coventry portrait at the Olympic Games" [ref=e90]
+          - generic [ref=e92]:
+            - generic [ref=e93]: Swimming
+            - heading "Kirsty Coventry" [level=3] [ref=e94]
+            - paragraph [ref=e95]: Zimbabwe's most decorated Olympic athlete — 1 gold, 4 silver, 2 bronze medals across three Olympics. Gold in 200m backstroke (Athens 2004) and 200m butterfly (Beijing 2008). First Zimbabwean to win an Olympic gold medal since 1980.
+            - generic [ref=e96]: 2004–2016
+        - generic [ref=e98]:
+          - img "Heath Streak bowling in a Test match" [ref=e100]
+          - generic [ref=e102]:
+            - generic [ref=e103]: Cricket
+            - heading "Heath Streak" [level=3] [ref=e104]
+            - paragraph [ref=e105]: Zimbabwe's leading Test wicket-taker with 347 wickets in 105 Tests. One of the greatest bowlers in Zimbabwean cricket history, known for his pace and swing.
+            - generic [ref=e106]: 1993–2005
+        - generic [ref=e108]:
+          - img "Andy Flower batting in international cricket" [ref=e110]
+          - generic [ref=e112]:
+            - generic [ref=e113]: Cricket
+            - heading "Andy Flower" [level=3] [ref=e114]
+            - paragraph [ref=e115]: Zimbabwean-born cricketer who later became England head coach. One of England's greatest Test batsmen with over 8,000 Test runs. Known for his elegant batting style.
+            - generic [ref=e116]: 1992–2004
+        - generic [ref=e118]:
+          - img "Richard Sterne on the golf course" [ref=e120]
+          - generic [ref=e122]:
+            - generic [ref=e123]: Golf
+            - heading "Richard Sterne" [level=3] [ref=e124]
+            - paragraph [ref=e125]: First South African-born player to represent Zimbabwe on the PGA Tour. Won the 2008 Nedbank Golf Challenge in South Africa, defeating Tim Clark in a playoff.
+            - generic [ref=e126]: "2008"
+        - generic [ref=e129]:
+          - generic [ref=e130]: Boxing
+          - heading "Benning Mazikure" [level=3] [ref=e131]
+          - paragraph [ref=e132]: Commonwealth Games gold medalist for Zimbabwe. Represented Zimbabwe at multiple Commonwealth Games and was one of the country's top boxers in the 1990s.
+          - generic [ref=e133]: 1998–2006
+        - generic [ref=e135]:
+          - img "Sikandar Raza batting in international cricket" [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e140]: Cricket
+            - heading "Sikandar Raza" [level=3] [ref=e141]
+            - paragraph [ref=e142]: Zimbabwe's current cricket superstar and all-rounder. Key player in Zimbabwe's 2023 Cricket World Cup campaign. ICC Cricketer of the Year nominee with consistent performances across all formats.
+            - generic [ref=e143]: 2015–present
+        - generic [ref=e146]:
+          - generic [ref=e147]: Cricket
+          - heading "Zimbabwe U-19 Cricket Team" [level=3] [ref=e148]
+          - paragraph [ref=e149]: Reached the semi-finals of the ICC Under-19 Cricket World Cup 2022 in West Indies, showcasing the depth of Zimbabwe's cricket development programs.
+          - generic [ref=e150]: "2022"
+        - generic [ref=e153]:
+          - generic [ref=e154]: Football
+          - heading "Zimbo Stars (Football)" [level=3] [ref=e155]
+          - paragraph [ref=e156]: Reached the Africa Cup of Nations quarter-finals in 1980 (hosted in Ghana) and again in 2004. The 1980 tournament was particularly special as Zimbabwe hosted and reached the semis.
+          - generic [ref=e157]: 1980–present
+    - generic [ref=e158]:
+      - img "Sports stadium" [ref=e160]
+      - generic [ref=e161]:
+        - heading "Sports Unite Zimbabwe" [level=2] [ref=e162]
+        - paragraph [ref=e163]: From the dusty pitches of rural Zimbabwe to international stadiums around the world, sport is more than competition — it's a source of national unity and pride.
+    - generic [ref=e165]:
+      - heading "Help Us Celebrate More Champions" [level=2] [ref=e166]
+      - paragraph [ref=e167]: This page is a living document. If you have knowledge of Zimbabwean sporting achievements that should be featured, we want to hear from you.
+      - link "Back to Home" [ref=e168] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e169]:
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - link "Zimbabwe Pride" [ref=e179] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e180]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e181]:
+          - heading "Explore" [level=3] [ref=e182]
+          - list [ref=e183]:
+            - listitem [ref=e184]:
+              - link "Sports" [ref=e186] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e187]:
+              - link "Science & Innovation" [ref=e189] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e190]:
+              - link "National Progress" [ref=e192] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e193]:
+              - link "News" [ref=e195] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e196]:
+              - link "Food & Culture" [ref=e198] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e199]:
+              - link "People" [ref=e201] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e202]:
+              - link "Pride" [ref=e204] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e205]:
+              - link "Leadership" [ref=e207] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e208]:
+          - heading "Follow Us" [level=3] [ref=e209]
+          - list [ref=e210]:
+            - listitem [ref=e211]:
+              - link "Twitter" [ref=e213] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e214]:
+              - link "Facebook" [ref=e216] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e217]:
+              - link "Instagram" [ref=e219] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e220]:
+              - link "YouTube" [ref=e222] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e223]:
+        - paragraph [ref=e224]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+        - paragraph [ref=e225]: created by Loogi-Turbo Chud
+  - alert [ref=e226]

@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e9]:
+      - link "Zimbabwe Pride" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e11]: Zimbabwe Pride
+      - generic [ref=e12]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e16] [cursor=pointer]:
+          - /url: /sports
+        - link "Science" [ref=e18] [cursor=pointer]:
+          - /url: /science
+        - link "Progress" [ref=e20] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e22] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e24] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e26] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e28] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e30] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img [ref=e39]
+      - img "Zimbabwean landscape" [ref=e43]
+      - img "President Emmerson Mnangagwa" [ref=e46]
+      - img "Traditional music" [ref=e49]
+      - img "African community" [ref=e52]
+      - generic [ref=e56]:
+        - generic [ref=e57]: Celebrating a Nation
+        - heading "Zimbabwe. Unstoppable." [level=1] [ref=e58]:
+          - text: Zimbabwe.
+          - text: Unstoppable.
+        - paragraph [ref=e59]: From sporting triumphs to cultural richness, scientific innovation to community strength — discover what makes Zimbabwe a source of endless pride.
+        - generic [ref=e60]:
+          - link "Explore Achievements" [ref=e61] [cursor=pointer]:
+            - /url: /sports
+          - link "Meet the People" [ref=e62] [cursor=pointer]:
+            - /url: /people
+    - generic [ref=e77]:
+      - heading "Explore Zimbabwe Pride" [level=2] [ref=e78]
+      - generic [ref=e79]:
+        - link "🏆 Sports Champions & victories" [ref=e80] [cursor=pointer]:
+          - /url: /sports
+          - generic [ref=e81]: 🏆
+          - heading "Sports" [level=3] [ref=e82]
+          - paragraph [ref=e83]: Champions & victories
+        - link "🔬 Science & Innovation Breakthroughs & research" [ref=e84] [cursor=pointer]:
+          - /url: /science
+          - generic [ref=e85]: 🔬
+          - heading "Science & Innovation" [level=3] [ref=e86]
+          - paragraph [ref=e87]: Breakthroughs & research
+        - link "📈 National Progress Growth & development" [ref=e88] [cursor=pointer]:
+          - /url: /improvements
+          - generic [ref=e89]: 📈
+          - heading "National Progress" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Growth & development
+        - link "📰 News Latest updates" [ref=e92] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e93]: 📰
+          - heading "News" [level=3] [ref=e94]
+          - paragraph [ref=e95]: Latest updates
+        - link "🍲 Food & Culture Taste of Zimbabwe" [ref=e96] [cursor=pointer]:
+          - /url: /food
+          - generic [ref=e97]: 🍲
+          - heading "Food & Culture" [level=3] [ref=e98]
+          - paragraph [ref=e99]: Taste of Zimbabwe
+        - link "🌟 People Notable Zimbabweans" [ref=e100] [cursor=pointer]:
+          - /url: /people
+          - generic [ref=e101]: 🌟
+          - heading "People" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Notable Zimbabweans
+        - link "🏳️‍🌈 Pride Community & identity" [ref=e104] [cursor=pointer]:
+          - /url: /pride
+          - generic [ref=e105]: 🏳️‍🌈
+          - heading "Pride" [level=3] [ref=e106]
+          - paragraph [ref=e107]: Community & identity
+        - link "🏛️ Leadership Vision & direction" [ref=e108] [cursor=pointer]:
+          - /url: /leadership
+          - generic [ref=e109]: 🏛️
+          - heading "Leadership" [level=3] [ref=e110]
+          - paragraph [ref=e111]: Vision & direction
+    - generic [ref=e113]:
+      - heading "The Beauty of Zimbabwe" [level=2] [ref=e114]
+      - paragraph [ref=e115]: From the thundering waters of Victoria Falls to the rolling hills of Mashonaland, Zimbabwe's landscapes are as diverse and breathtaking as its people.
+      - img "Victoria Falls (Mosi-oa-Tunya) cascading over the cliff edge with mist rising, Zimbabwe" [ref=e117]
+    - generic [ref=e126]:
+      - generic [ref=e127]:
+        - heading "Proud of Zimbabwe? So Are We." [level=2] [ref=e128]
+        - paragraph [ref=e129]: This is a living celebration of what Zimbabwe has achieved and what it promises. Explore every section, share every story, and carry the pride forward.
+      - generic [ref=e130]:
+        - link "🏆 Sports" [ref=e132] [cursor=pointer]:
+          - /url: /sports
+          - generic [ref=e133]: 🏆
+          - text: Sports
+        - link "🔬 Science & Innovation" [ref=e135] [cursor=pointer]:
+          - /url: /science
+          - generic [ref=e136]: 🔬
+          - text: Science & Innovation
+        - link "📈 National Progress" [ref=e138] [cursor=pointer]:
+          - /url: /improvements
+          - generic [ref=e139]: 📈
+          - text: National Progress
+        - link "📰 News" [ref=e141] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e142]: 📰
+          - text: News
+        - link "🍲 Food & Culture" [ref=e144] [cursor=pointer]:
+          - /url: /food
+          - generic [ref=e145]: 🍲
+          - text: Food & Culture
+        - link "🌟 People" [ref=e147] [cursor=pointer]:
+          - /url: /people
+          - generic [ref=e148]: 🌟
+          - text: People
+        - link "🏳️‍🌈 Pride" [ref=e150] [cursor=pointer]:
+          - /url: /pride
+          - generic [ref=e151]: 🏳️‍🌈
+          - text: Pride
+        - link "🏛️ Leadership" [ref=e153] [cursor=pointer]:
+          - /url: /leadership
+          - generic [ref=e154]: 🏛️
+          - text: Leadership
+  - contentinfo [ref=e160]:
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]:
+          - link "Zimbabwe Pride" [ref=e170] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e171]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e172]:
+          - heading "Explore" [level=3] [ref=e173]
+          - list [ref=e174]:
+            - listitem [ref=e175]:
+              - link "Sports" [ref=e177] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e178]:
+              - link "Science & Innovation" [ref=e180] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e181]:
+              - link "National Progress" [ref=e183] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e184]:
+              - link "News" [ref=e186] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e187]:
+              - link "Food & Culture" [ref=e189] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e190]:
+              - link "People" [ref=e192] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e193]:
+              - link "Pride" [ref=e195] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e196]:
+              - link "Leadership" [ref=e198] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e199]:
+          - heading "Follow Us" [level=3] [ref=e200]
+          - list [ref=e201]:
+            - listitem [ref=e202]:
+              - link "Twitter" [ref=e204] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e205]:
+              - link "Facebook" [ref=e207] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e208]:
+              - link "Instagram" [ref=e210] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e211]:
+              - link "YouTube" [ref=e213] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e214]:
+        - paragraph [ref=e215]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+        - paragraph [ref=e216]: created by Loogi-Turbo Chud
+  - alert [ref=e217]

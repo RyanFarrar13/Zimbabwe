@@ -1,0 +1,183 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e9]:
+      - link "Zimbabwe Pride" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e11]: Zimbabwe Pride
+      - generic [ref=e12]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+        - link "Sports" [ref=e16] [cursor=pointer]:
+          - /url: /sports
+        - link "Science" [ref=e18] [cursor=pointer]:
+          - /url: /science
+        - link "Progress" [ref=e20] [cursor=pointer]:
+          - /url: /improvements
+        - link "News" [ref=e22] [cursor=pointer]:
+          - /url: /news
+        - link "Food & Culture" [ref=e24] [cursor=pointer]:
+          - /url: /food
+        - link "People" [ref=e26] [cursor=pointer]:
+          - /url: /people
+        - link "Pride" [ref=e28] [cursor=pointer]:
+          - /url: /pride
+        - link "Leadership" [ref=e30] [cursor=pointer]:
+          - /url: /leadership
+  - main [ref=e31]:
+    - generic [ref=e32]:
+      - img [ref=e34]
+      - generic [ref=e43]:
+        - heading "National Progress" [level=1] [ref=e44]
+        - paragraph [ref=e45]: Zimbabwe's journey of growth and development — from infrastructure projects to healthcare improvements, education milestones to agricultural innovation. Progress is steady, challenges are acknowledged honestly.
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: 93%
+        - paragraph [ref=e56]: Literacy Rate
+      - generic [ref=e57]:
+        - generic [ref=e58]: 90%+
+        - paragraph [ref=e59]: Mobile Penetration
+      - generic [ref=e60]:
+        - generic [ref=e61]: 500+ MW
+        - paragraph [ref=e62]: Solar Capacity Target
+      - generic [ref=e63]:
+        - generic [ref=e64]: $3.5B+
+        - paragraph [ref=e65]: Mining Output
+    - generic [ref=e67]:
+      - heading "Economic Growth" [level=2] [ref=e68]
+      - paragraph [ref=e69]: Zimbabwe's GDP has shown resilience with strong recovery post-pandemic. The economy grew 8.6% in 2021, followed by steady growth in subsequent years.
+      - generic [ref=e71]:
+        - heading "GDP Growth Rate (%)" [level=3] [ref=e72]
+        - generic [ref=e73]:
+          - generic:
+            - generic [ref=e74]: "-3.7%"
+            - generic [ref=e75]: "2018"
+          - generic:
+            - generic [ref=e76]: +4.3%
+            - generic [ref=e77]: "2019"
+          - generic:
+            - generic [ref=e78]: "-4.3%"
+            - generic [ref=e79]: "2020"
+          - generic:
+            - generic [ref=e80]: +8.6%
+            - generic [ref=e81]: "2021"
+          - generic:
+            - generic [ref=e82]: +4.1%
+            - generic [ref=e83]: "2022"
+          - generic:
+            - generic [ref=e84]: +5.1%
+            - generic [ref=e85]: "2023"
+    - generic [ref=e87]:
+      - heading "Key Areas of Progress" [level=2] [ref=e88]
+      - paragraph [ref=e89]: Zimbabwe is making progress across multiple sectors. Each development represents hope, investment, and the determination of a nation moving forward.
+      - generic [ref=e90]:
+        - generic [ref=e92]:
+          - img "Zimbabwe road infrastructure and modern development" [ref=e94]
+          - generic [ref=e96]:
+            - generic [ref=e97]: Technology
+            - heading "Mobile Phone Penetration Boom" [level=3] [ref=e98]
+            - paragraph [ref=e99]: Zimbabwe experienced a dramatic increase in mobile phone usage, with penetration rates exceeding 90% by the early 2020s. Mobile money services like EcoCash have revolutionized financial inclusion, enabling millions of unbanked Zimbabweans to participate in the digital economy.
+            - generic [ref=e100]:
+              - generic [ref=e101]: 90%+
+              - generic [ref=e102]: Potraz / CBZ Economics
+        - generic [ref=e104]:
+          - img "Modern urban development and architecture in Harare" [ref=e106]
+          - generic [ref=e108]:
+            - generic [ref=e109]: Energy
+            - heading "Solar Energy Expansion" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Facing energy challenges, Zimbabwe has seen a surge in solar installations across households and businesses. The government's licensing of independent power producers has opened the door to significant renewable energy investment, with several solar farms under development.
+            - generic [ref=e112]:
+              - generic [ref=e113]: 500+ MW
+              - generic [ref=e114]: Zimbabwe Energy Regulatory Authority (ZERA)
+        - generic [ref=e116]:
+          - img "Victoria Falls (Mosi-oa-Tunya) - the thundering smoke waterfall on the Zambezi River" [ref=e118]
+          - generic [ref=e120]:
+            - generic [ref=e121]: Education
+            - heading "Education Access Growth" [level=3] [ref=e122]
+            - paragraph [ref=e123]: Zimbabwe maintains one of Africa's highest literacy rates at approximately 93%. The government has invested in expanding access to secondary education, with enrollment numbers growing steadily since the 2010s. University enrollment has also expanded beyond the traditional institutions.
+            - generic [ref=e124]:
+              - generic [ref=e125]: 93%
+              - generic [ref=e126]: World Bank / UNESCO
+        - generic [ref=e128]:
+          - img "Infrastructure development in Zimbabwe showing road construction and modernization projects" [ref=e130]
+          - generic [ref=e132]:
+            - generic [ref=e133]: Infrastructure
+            - heading "Infrastructure Development" [level=3] [ref=e134]
+            - paragraph [ref=e135]: Major road rehabilitation projects have connected key cities and border posts. The Harare-Southdowns highway and other infrastructure upgrades have improved transport links. The New Reconstruction and Development (NRD) Programme aims to modernize national infrastructure.
+            - generic [ref=e136]:
+              - generic [ref=e137]: 1,000+ km
+              - generic [ref=e138]: Ministry of Roads and Infrastructure / World Bank
+        - generic [ref=e140]:
+          - img "African savanna landscape with acacia trees at golden hour" [ref=e142]
+          - generic [ref=e144]:
+            - generic [ref=e145]: Economy
+            - heading "Mining Sector Growth" [level=3] [ref=e146]
+            - paragraph [ref=e147]: Zimbabwe's mining sector has grown significantly, with lithium extraction emerging as a major industry. The country holds the world's third-largest lithium reserves. Gold and diamond mining have also expanded, contributing substantially to export earnings.
+            - generic [ref=e148]:
+              - generic [ref=e149]: $3.5B+
+              - generic [ref=e150]: ZIMSTAT / Ministry of Mines and Mining Development
+        - generic [ref=e152]:
+          - img "Harare city skyline with modern buildings and palm trees" [ref=e154]
+          - generic [ref=e156]:
+            - generic [ref=e157]: Tourism
+            - heading "Tourism Recovery" [level=3] [ref=e158]
+            - paragraph [ref=e159]: Victoria Falls, one of the Seven Natural Wonders of the World, continues to be a major tourist attraction. Visitor numbers have been recovering post-pandemic, with the government targeting 5+ million annual visitors as part of its tourism development strategy.
+            - generic [ref=e160]:
+              - generic [ref=e161]: 2.5M+
+              - generic [ref=e162]: Zimbabwe Tourism Authority / UNWTO
+    - generic [ref=e164]:
+      - heading "Building a Better Tomorrow" [level=2] [ref=e165]
+      - paragraph [ref=e166]: Zimbabwe's story is one of resilience and progress. Every road built, every school upgraded, every clinic opened brings the nation closer to its full potential.
+      - link "Back to Home" [ref=e167] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e168]:
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]:
+          - link "Zimbabwe Pride" [ref=e178] [cursor=pointer]:
+            - /url: /
+          - paragraph [ref=e179]: A vibrant celebration of Zimbabwe — its people, achievements, culture, food, sports, science, and national progress.
+        - generic [ref=e180]:
+          - heading "Explore" [level=3] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - link "Sports" [ref=e185] [cursor=pointer]:
+                - /url: /sports
+            - listitem [ref=e186]:
+              - link "Science & Innovation" [ref=e188] [cursor=pointer]:
+                - /url: /science
+            - listitem [ref=e189]:
+              - link "National Progress" [ref=e191] [cursor=pointer]:
+                - /url: /improvements
+            - listitem [ref=e192]:
+              - link "News" [ref=e194] [cursor=pointer]:
+                - /url: /news
+            - listitem [ref=e195]:
+              - link "Food & Culture" [ref=e197] [cursor=pointer]:
+                - /url: /food
+            - listitem [ref=e198]:
+              - link "People" [ref=e200] [cursor=pointer]:
+                - /url: /people
+            - listitem [ref=e201]:
+              - link "Pride" [ref=e203] [cursor=pointer]:
+                - /url: /pride
+            - listitem [ref=e204]:
+              - link "Leadership" [ref=e206] [cursor=pointer]:
+                - /url: /leadership
+        - generic [ref=e207]:
+          - heading "Follow Us" [level=3] [ref=e208]
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - link "Twitter" [ref=e212] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e213]:
+              - link "Facebook" [ref=e215] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e216]:
+              - link "Instagram" [ref=e218] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e219]:
+              - link "YouTube" [ref=e221] [cursor=pointer]:
+                - /url: "#"
+      - generic [ref=e222]:
+        - paragraph [ref=e223]: © 2026 Zimbabwe Pride. Celebrating a nation of achievement and culture.
+        - paragraph [ref=e224]: created by Loogi-Turbo Chud

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "popular-sports-zimbabwe",
+    "title": "Popular Sports in Zimbabwe",
+    "description": "Football (soccer) is the undisputed most popular sport in Zimbabwe, followed closely by cricket and rugby. Netball enjoys widespread participation especially among women and girls, while field hockey has a strong grassroots presence — the Zimbabwe women's national hockey team won gold at the 1980 Moscow Olympics. Athletics, golf, and tennis also have dedicated followings, supported by a strong school-sports culture that has produced internationally competitive athletes across multiple disciplines.",
+    "image": "A vibrant outdoor football match in progress on a sunlit pitch with spectators watching from terraced stands, capturing the energy of grassroots football in southern Africa",
+    "imageAlt": "Football match in progress with spectators watching from terraced stands under a clear sky"
+  },
+  {
+    "id": "stadiums-and-venues",
+    "title": "Iconic Stadiums and Venues",
+    "description": "Zimbabwe's premier sporting venues include the National Sports Stadium in Harare, a 60,000-seat multi-purpose arena built with Chinese government financing in 1987 and home to the national football and rugby teams. Rufaro Stadium, also in Harare with a 60,000 capacity, hosts major club matches. In Bulawayo, Queens Sports Club is one of Zimbabwe's most historic cricket grounds with a 9,000-seat capacity and has hosted numerous international matches. Harare Sports Club, with 10,000 seats, is the country's leading cricket venue. Luveve Stadium in Bulawayo (8,000 capacity) and Mandava Stadium in Zvishavane (15,000 capacity) round out the nation's major sporting infrastructure.",
+    "image": "A wide-angle view of a large African sports stadium with terraced concrete stands under bright sunlight, showing the pitch and surrounding cityscape",
+    "imageAlt": "Large outdoor sports stadium with terraced concrete seating and a green pitch under bright sunlight"
+  },
+  {
+    "id": "major-tournaments-events",
+    "title": "Major Tournaments and Events",
+    "description": "Zimbabwe has hosted several landmark sporting events. It co-hosted the 2003 Cricket World Cup alongside South Africa and Kenya, sharing matches across Harare and Bulawayo. Zimbabwe hosted the 2019 Netball World Cup in Bulawayo, a historic first for an African nation in that sport. The country has also hosted the ICC Cricket World Cup Qualifier 2018 and is set to co-host the ICC Under-19 Men's Cricket World Cup 2026 with Namibia. Zimbabwe has participated in multiple Africa Cup of Nations tournaments and the National Sports Stadium has hosted AFCON matches, cementing its role as a regional football hub.",
+    "image": "A cricket ground with spectators filling the stands on match day, green outfield and a clear blue sky over southern Africa",
+    "imageAlt": "Cricket ground with spectators in the stands during a match day under clear blue skies"
+  },
+  {
+    "id": "fan-culture-atmosphere",
+    "title": "Fan Culture and Match-Day Atmosphere",
+    "description": "Sports in Zimbabwe are deeply woven into community life. Football clubs like CAPS United, Dynamos, and Highlanders command passionate fan bases whose rivalries define match-day culture in Harare. Cricket has seen surging attendance — thousands of fans pack Queens Sports Club and Harare Sports Club for national team games and major qualifiers. Netball draws strong support, particularly in urban centers, while rugby's Sables have built a growing following. Match days are characterized by drumming, chanting, and colorful supporter banners, with fans traveling long distances to support their teams. The atmosphere at major tournaments reflects Zimbabwe's broader love of sport as a unifying social force.",
+    "image": "A crowd of diverse spectators cheering and waving flags from stadium terraces, drums visible in the foreground, capturing the vibrant match-day atmosphere of southern African football culture",
+    "imageAlt": "Diverse crowd of spectators cheering and waving flags from stadium terraces with drums visible"
+  },
+  {
+    "id": "recent-developments",
+    "title": "Recent Developments and Future Outlook",
+    "description": "Zimbabwean sport is experiencing a period of renewed momentum. Zimbabwe Cricket has been building on significant progress in 2025, with improved performances and growing international engagement. The Sables rugby team has been on an impressive run — unbeaten in 15 matches including back-to-back Rugby Africa Cup titles in 2024 and 2025 — positioning them for a Rugby World Cup return. Zimbabwe is co-hosting the ICC Under-19 Men's Cricket World Cup in early 2026 with Namibia, a major event that will showcase the country's venues to a global audience. The Zimbabwe Gems netball team continues to compete at World Cup level, and the 2026 Africa Triathlon Cup is scheduled for Troutbeck Resort in Zimbabwe, signaling growing diversity in the sports hosted.",
+    "image": "A rugby match in progress on a lush green field with players tackling and spectators watching from the sidelines, capturing the intensity of southern African rugby culture",
+    "imageAlt": "Rugby match in progress with players tackling on a green field and spectators watching from the sidelines"
+  }
+]

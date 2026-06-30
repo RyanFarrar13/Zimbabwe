@@ -13,7 +13,6 @@ const navItems = [
   { href: "/food", label: "Food & Culture" },
   { href: "/people", label: "People" },
   { href: "/pride", label: "Pride" },
-  { href: "/leadership", label: "Leadership" },
 ];
 
 export default function Navbar() {

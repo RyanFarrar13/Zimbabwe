@@ -1,0 +1,4 @@
+[    1394ms] [WARNING] This page is using the deprecated ResourceLoader module "vuex".
+[1.42] Use Pinia instead. See migration guidelines: https://w.wiki/7pLU @ https://commons.wikimedia.org/w/load.php?lang=en&modules=startup&only=scripts&raw=1&skin=vector-2022:11
+[    1426ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://commons.wikimedia.org/w/load.php?lang=en&modules=mediawiki.base&skin=vector-2022&version=17jak:7
+[    1445ms] [WARNING] Use of "mw.eventLog.eventInSample" is deprecated. Use "mw.eventLog.pageviewInSample()" instead. @ https://commons.wikimedia.org/w/load.php?lang=en&modules=mediawiki.base&skin=vector-2022&version=17jak:7
